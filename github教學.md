@@ -30,12 +30,30 @@
 
 ### (10)一切就緒之後就到最下面綠色按鈕(確定新增)點下去
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github10.jpg)
+
+### (11)新增好之後裡面會預設給你兩個檔案，都不要管它，暫時用不到
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github11.jpg)
+
+### (12)我們要新增一個檔案就點擊add file
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github12.jpg)
+
+### (13)會出現兩個選項給你選create new file(直接新增可編輯檔案)和 upload files(上傳電腦中的檔案)，我們這邊先用create new file(直接新增可編輯檔案)就好
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github13.jpg)
+
+### (14)點進來之後看到上面的格子叫你填檔案名稱，但後面最好加.md(讓這個檔案變成一個可使用程式碼的檔案，而不是只能打字的檔案)
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github14.jpg)
+
+### (15)接下來是如何刪除這個儲存庫，先點擊setting
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github15.jpg)
+
+### (16)找到options(基礎選項設定)，往下拉到最底
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github16.jpg)
+
+### (17)找到danger zone，下方的delete this repository(刪除這個儲存庫)點下去
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github17.jpg)
+
+### (18)他會叫你輸入下圖圈起來的文字來確認你要刪除
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github18.jpg)
+
+### (19)最後點擊下方紅色按鈕即可刪除
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github19.jpg)
