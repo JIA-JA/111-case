@@ -1,6 +1,6 @@
 # github初版教學
 
-### (1)首先先進入github官網
+### (1)首先先進入github官網(https://github.com/)
 
 ![image](https://github.com/JIA-JA/111-case/blob/main/github-images/github1.jpg)
 
