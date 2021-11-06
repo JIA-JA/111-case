@@ -1,4 +1,4 @@
-# github教學
+# github初版教學
 
 ### (1)首先先進入github官網
 
