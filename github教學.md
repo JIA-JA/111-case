@@ -1,4 +1,4 @@
-![fontsize=60]github教學
+github教學
 
 首先先進入github官網
 
