@@ -398,7 +398,7 @@
         android:id="@+id/textView100"
         android:layout_width="103dp"
         android:layout_height="40dp"
-        android:text="殯葬服務"
+        android:text="領養區"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
