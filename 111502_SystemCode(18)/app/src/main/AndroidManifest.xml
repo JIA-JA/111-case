@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PetsApp">
-        <activity android:name=".MainActivityB"></activity>
+        <activity android:name=".MainActivityL"></activity>
+        <activity android:name=".MainActivityK" />
+        <activity android:name=".MainActivityJ" />
+        <activity android:name=".MainActivityI" />
+        <activity android:name=".MainActivityH" />
+        <activity android:name=".MainActivityG" />
+        <activity android:name=".MainActivityF" />
+        <activity android:name=".MainActivityE" />
+        <activity android:name=".MainActivityD" />
+        <activity android:name=".MainActivityC" />
+        <activity android:name=".MainActivityB" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
