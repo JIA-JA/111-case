@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PetsApp">
-        <activity android:name=".MainActivityL"></activity>
+        <activity android:name=".MainActivityP"></activity>
+        <activity android:name=".MainActivityO" />
+        <activity android:name=".MainActivityN" />
+        <activity android:name=".MainActivityM" />
+        <activity android:name=".MainActivityL" />
         <activity android:name=".MainActivityK" />
         <activity android:name=".MainActivityJ" />
         <activity android:name=".MainActivityI" />
