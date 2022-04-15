@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.867" />
 
     <TextView
-        android:id="@+id/textView145"
+        android:id="@+id/textViewPostTextJ2"
         android:layout_width="220dp"
         android:layout_height="59dp"
         android:text="有人想要可愛的狗狗嗎～瑟瑟是一歲多的柴犬但是超級可愛......"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.813" />
 
     <Button
-        android:id="@+id/button34"
+        android:id="@+id/buttonMessageJ2"
         android:layout_width="82dp"
         android:layout_height="36dp"
         android:text="私訊"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.887" />
 
     <TextView
-        android:id="@+id/textView146"
+        android:id="@+id/textViewPetVarietyJ2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="柴犬"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.726" />
 
     <TextView
-        android:id="@+id/textView147"
+        android:id="@+id/textViewNameJ2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="名字:"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.726" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageViewPetPhotoJ2"
         android:layout_width="108dp"
         android:layout_height="102dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,7 +79,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView148"
+        android:id="@+id/textViewVarietyJ2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="品種:"
@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.726" />
 
     <TextView
-        android:id="@+id/textView150"
+        android:id="@+id/textViewPetNameJ2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="瑟瑟"
@@ -115,7 +115,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton76"
+        android:id="@+id/imageButtonToPageJJ"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -128,7 +128,7 @@
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
-        android:id="@+id/imageButton77"
+        android:id="@+id/imageButtonToPageOJ"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,7 +141,7 @@
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
-        android:id="@+id/imageButton78"
+        android:id="@+id/imageButtonToPageHJ"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -154,7 +154,7 @@
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
-        android:id="@+id/imageButton79"
+        android:id="@+id/imageButtonToPageBJ"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -167,7 +167,7 @@
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <ImageButton
-        android:id="@+id/imageButton80"
+        android:id="@+id/imageButtonToPageAJ"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -180,7 +180,7 @@
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <TextView
-        android:id="@+id/textView133"
+        android:id="@+id/textViewToPageBJ"
         android:layout_width="49dp"
         android:layout_height="18dp"
         android:text="保健區"
@@ -192,7 +192,7 @@
         app:layout_constraintVertical_bias="0.992" />
 
     <TextView
-        android:id="@+id/textView134"
+        android:id="@+id/textViewToPageJJ"
         android:layout_width="50dp"
         android:layout_height="15dp"
         android:text="領養區"
@@ -204,7 +204,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView135"
+        android:id="@+id/textViewToPageAJ"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="動態消息"
@@ -216,7 +216,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView136"
+        android:id="@+id/textViewToPageOJ"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="個人資料"
@@ -228,7 +228,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView138"
+        android:id="@+id/textViewToPageHJ"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="殯葬服務"
@@ -251,7 +251,7 @@
         app:layout_constraintVertical_bias="0.586" />
 
     <TextView
-        android:id="@+id/textView127"
+        android:id="@+id/textViewPostTextJ1"
         android:layout_width="220dp"
         android:layout_height="59dp"
         android:text="有人想要領養超級活潑的二哈嗎～哈密瓜是四歲多的哈士奇......"
@@ -263,7 +263,7 @@
         app:layout_constraintVertical_bias="0.571" />
 
     <TextView
-        android:id="@+id/textView128"
+        android:id="@+id/textViewPetNameJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="哈密瓜"
@@ -275,7 +275,7 @@
         app:layout_constraintVertical_bias="0.497" />
 
     <TextView
-        android:id="@+id/textView131"
+        android:id="@+id/textViewPetVarietyJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="哈士奇"
@@ -287,7 +287,7 @@
         app:layout_constraintVertical_bias="0.497" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewPetPhotoJ1"
         android:layout_width="108dp"
         android:layout_height="102dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -299,7 +299,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView132"
+        android:id="@+id/textViewVarietyJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="品種:"
@@ -311,7 +311,7 @@
         app:layout_constraintVertical_bias="0.497" />
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/buttonMessageJ1"
         android:layout_width="82dp"
         android:layout_height="36dp"
         android:text="私訊"
@@ -323,7 +323,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <TextView
-        android:id="@+id/textView130"
+        android:id="@+id/textViewNameJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="名字:"
@@ -347,7 +347,7 @@
         app:layout_constraintVertical_bias="0.272" />
 
     <ImageButton
-        android:id="@+id/imageButton75"
+        android:id="@+id/imageButtonCreatePostJ"
         android:layout_width="49dp"
         android:layout_height="46dp"
         android:background="#00FFFFFF"
@@ -360,7 +360,7 @@
         app:srcCompat="@android:drawable/ic_menu_add" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/spinnerVarietyJ"
         android:layout_width="170dp"
         android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -371,7 +371,7 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <RadioButton
-        android:id="@+id/radioButton3"
+        android:id="@+id/radioButtonCatJ"
         android:layout_width="55dp"
         android:layout_height="28dp"
         android:text="貓"
@@ -383,7 +383,7 @@
         app:layout_constraintVertical_bias="0.095" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButtonDogJ"
         android:layout_width="55dp"
         android:layout_height="28dp"
         android:text="狗"
@@ -423,7 +423,7 @@
         app:layout_constraintVertical_bias="0.157" />
 
     <TextView
-        android:id="@+id/textView107"
+        android:id="@+id/textViewYourPostTextJ1"
         android:layout_width="220dp"
         android:layout_height="59dp"
         android:text="有人想要領養超級親人的狗狗嗎～金玉是一歲多的黃金獵犬......"
@@ -435,7 +435,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <TextView
-        android:id="@+id/textView103"
+        android:id="@+id/textViewYourVarietyJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="品種:"
@@ -447,7 +447,7 @@
         app:layout_constraintVertical_bias="0.242" />
 
     <TextView
-        android:id="@+id/textView104"
+        android:id="@+id/textViewYourPetVarietyJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="黃金獵犬"
@@ -459,7 +459,7 @@
         app:layout_constraintVertical_bias="0.242" />
 
     <TextView
-        android:id="@+id/textView106"
+        android:id="@+id/textViewYourPetNameJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="金玉"
@@ -471,7 +471,7 @@
         app:layout_constraintVertical_bias="0.242" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewYourPetPhotoJ1"
         android:layout_width="108dp"
         android:layout_height="102dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -483,7 +483,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/buttonYourMessageJ1"
         android:layout_width="82dp"
         android:layout_height="36dp"
         android:text="私訊"
@@ -495,7 +495,7 @@
         app:layout_constraintVertical_bias="0.392" />
 
     <TextView
-        android:id="@+id/textView105"
+        android:id="@+id/textViewYourNameJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="名字:"
@@ -507,10 +507,10 @@
         app:layout_constraintVertical_bias="0.242" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/buttonEditJ1"
         android:layout_width="74dp"
         android:layout_height="36dp"
-        android:text="繼續"
+        android:text="編輯"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.637"

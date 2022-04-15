@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton100"
+        android:id="@+id/imageButtonToPageAP"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <ImageButton
-        android:id="@+id/imageButton101"
+        android:id="@+id/imageButtonToPageHP"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +45,7 @@
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
-        android:id="@+id/imageButton102"
+        android:id="@+id/imageButtonToPageOP"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
-        android:id="@+id/imageButton103"
+        android:id="@+id/imageButtonToPageJP"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,7 +71,7 @@
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
-        android:id="@+id/imageButton104"
+        android:id="@+id/imageButtonToPageBP"
         android:layout_width="68dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +84,7 @@
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <TextView
-        android:id="@+id/textView194"
+        android:id="@+id/textViewToPageJP"
         android:layout_width="50dp"
         android:layout_height="15dp"
         android:text="領養區"
@@ -96,7 +96,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView195"
+        android:id="@+id/textViewToPageOP"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="個人資料"
@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView196"
+        android:id="@+id/textViewToPageBP"
         android:layout_width="49dp"
         android:layout_height="18dp"
         android:text="保健區"
@@ -120,7 +120,7 @@
         app:layout_constraintVertical_bias="0.992" />
 
     <TextView
-        android:id="@+id/textView197"
+        android:id="@+id/textViewToPageAP"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="動態消息"
@@ -132,7 +132,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <TextView
-        android:id="@+id/textView198"
+        android:id="@+id/textViewToPageHP"
         android:layout_width="63dp"
         android:layout_height="16dp"
         android:text="殯葬服務"
@@ -143,7 +143,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <Button
-        android:id="@+id/button39"
+        android:id="@+id/buttonSaveP"
         android:layout_width="94dp"
         android:layout_height="42dp"
         android:text="儲存"
@@ -156,7 +156,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/button38"
+        android:id="@+id/buttonCancelP"
         android:layout_width="94dp"
         android:layout_height="42dp"
         android:text="取消"
@@ -169,7 +169,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/button37"
+        android:id="@+id/buttonDeleteP"
         android:layout_width="94dp"
         android:layout_height="42dp"
         android:text="刪除"
@@ -182,7 +182,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Spinner
-        android:id="@+id/spinner6"
+        android:id="@+id/spinnerPetLigationP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,7 +193,7 @@
         app:layout_constraintVertical_bias="0.574" />
 
     <Spinner
-        android:id="@+id/spinner5"
+        android:id="@+id/spinnerPetGenderP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -204,11 +204,11 @@
         app:layout_constraintVertical_bias="0.523" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/editTextPetVarietyP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         android:ems="10"
-        android:hint="請輸入帳號"
+        android:hint="品種"
         android:inputType="textPersonName"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -219,11 +219,11 @@
         app:layout_constraintVertical_bias="0.625" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName14"
+        android:id="@+id/editTextPetWaferP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         android:ems="10"
-        android:hint="請輸入帳號"
+        android:hint="晶片號碼"
         android:inputType="textPersonName"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -234,11 +234,11 @@
         app:layout_constraintVertical_bias="0.677" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/editTextPetNameP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         android:ems="10"
-        android:hint="請輸入帳號"
+        android:hint="名字"
         android:inputType="textPersonName"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -249,11 +249,11 @@
         app:layout_constraintVertical_bias="0.42" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/editTextPetP"
         android:layout_width="346dp"
         android:layout_height="36dp"
         android:ems="10"
-        android:hint="請輸入帳號"
+        android:hint="動物"
         android:inputType="textPersonName"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -279,7 +279,7 @@
         app:layout_constraintVertical_bias="0.363" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/imageViewPetPhotoP1"
         android:layout_width="160dp"
         android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"

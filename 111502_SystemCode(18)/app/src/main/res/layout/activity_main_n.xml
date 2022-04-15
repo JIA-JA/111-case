@@ -7,7 +7,7 @@
     tools:context=".MainActivityN">
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/editTextPasswordN2"
         android:layout_width="276dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.607" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/editTextAccountN"
         android:layout_width="276dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/ic_baseline_pets_24" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/buttonRegisterN"
         android:layout_width="276dp"
         android:layout_height="50dp"
         android:text="註冊"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.72" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/editTextPasswordN1"
         android:layout_width="276dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.512" />
 
     <ImageButton
-        android:id="@+id/imageButton87"
+        android:id="@+id/imageButtonBackN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
