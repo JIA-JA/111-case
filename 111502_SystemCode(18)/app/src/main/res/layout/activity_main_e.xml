@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_group_24"
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_360_24"
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
@@ -69,7 +69,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <ImageButton
@@ -83,7 +83,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <ImageButton
@@ -97,7 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <TextView
@@ -165,112 +165,237 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <ImageButton
-        android:id="@+id/imageButtonSpecialSituationE"
-        android:layout_width="88dp"
-        android:layout_height="83dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
-
-    <ImageButton
         android:id="@+id/imageButtonDietE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.558"
+        app:srcCompat="@drawable/yeenshusheeguan"
+        tools:srcCompat="@drawable/yeenshusheeguan" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSpecialSituationE"
+        android:layout_width="88dp"
+        android:layout_height="83dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558"
+        app:srcCompat="@drawable/tershuchunkrun"
+        tools:srcCompat="@drawable/tershuchunkrun" />
+
+    <TextView
+        android:id="@+id/textViewDietE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="飲食習慣"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:id="@+id/textViewSpecialSituationE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="特殊狀況"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
 
     <ImageButton
         android:id="@+id/imageButtonPhysicalConditionsE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.558"
+        app:srcCompat="@drawable/blackdog"
+        tools:srcCompat="@drawable/blackdog" />
 
-    <ImageButton
-        android:id="@+id/imageButtonAllergyE"
-        android:layout_width="88dp"
-        android:layout_height="83dp"
+    <TextView
+        android:id="@+id/textViewPhysicalConditionsE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="身體狀態"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
-
-    <ImageButton
-        android:id="@+id/imageButtonDrugE"
-        android:layout_width="88dp"
-        android:layout_height="83dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.622" />
 
     <ImageButton
         android:id="@+id/imageButtonOperationE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.362"
+        app:srcCompat="@drawable/showshoodauw"
+        tools:srcCompat="@drawable/showshoodauw" />
 
     <ImageButton
-        android:id="@+id/imageButtonPreventionE"
+        android:id="@+id/imageButtonAllergyE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.362"
+        app:srcCompat="@drawable/guominfanyin"
+        tools:srcCompat="@drawable/guominfanyin" />
+
+    <TextView
+        android:id="@+id/textViewOperationE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="手術紀錄"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
 
     <ImageButton
-        android:id="@+id/ImageButtonHealthE"
+        android:id="@+id/imageButtonDrugE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.362"
+        app:srcCompat="@drawable/yaoowujiliao"
+        tools:srcCompat="@drawable/yaoowujiliao" />
+
+    <TextView
+        android:id="@+id/textViewDrugE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="藥物治療"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/textViewAllergyE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="過敏反應"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPreventionE"
+        android:layout_width="88dp"
+        android:layout_height="83dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/dincheeyufun"
+        tools:srcCompat="@drawable/dincheeyufun" />
 
     <ImageButton
         android:id="@+id/imageButtonVaccineE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:onClick="EFonClick"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        app:srcCompat="@drawable/ic_baseline_merge_type_24" />
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/jentone"
+        tools:srcCompat="@drawable/jentone" />
+
+    <TextView
+        android:id="@+id/textViewVaccineE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:onClick="EFonClick"
+        android:text="疫苗接踵"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <TextView
+        android:id="@+id/textViewPreventionE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="定期預防"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageButton
+        android:id="@+id/ImageButtonHealthE"
+        android:layout_width="88dp"
+        android:layout_height="83dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/wayshenchinjay"
+        tools:srcCompat="@drawable/wayshenchinjay" />
+
+    <TextView
+        android:id="@+id/textViewHealthE"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:text="衛生清潔"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
 
     <TextView
         android:id="@+id/textView32"
@@ -290,6 +415,7 @@
         android:id="@+id/imageButtonBackE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="EBonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -297,112 +423,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018"
         app:srcCompat="@drawable/ic_baseline_west_24" />
-
-    <TextView
-        android:id="@+id/textViewSpecialSituationE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="特殊狀況"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
-
-    <TextView
-        android:id="@+id/textViewDietE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="飲食習慣"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
-
-    <TextView
-        android:id="@+id/textViewPhysicalConditionsE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="身體狀態"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
-
-    <TextView
-        android:id="@+id/textViewAllergyE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="過敏反應"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
-
-    <TextView
-        android:id="@+id/textViewDrugE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="藥物治療"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
-
-    <TextView
-        android:id="@+id/textViewOperationE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="手術紀錄"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
-
-    <TextView
-        android:id="@+id/textViewPreventionE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="定期預防"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.816"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
-
-    <TextView
-        android:id="@+id/textViewHealthE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="衛生清潔"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
-
-    <TextView
-        android:id="@+id/textViewVaccineE"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
-        android:text="疫苗接踵"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

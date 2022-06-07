@@ -38,4 +38,8 @@ public class MainActivityG extends AppCompatActivity {
         intent.setClass(MainActivityG.this, MainActivityO.class);
         startActivity(intent);
     }
+
+    public void backonClick(View v) {
+        MainActivityG.this.finish();
+    }
 }

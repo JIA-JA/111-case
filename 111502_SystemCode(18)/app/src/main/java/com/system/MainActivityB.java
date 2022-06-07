@@ -34,4 +34,22 @@ public class MainActivityB extends AppCompatActivity {
         intent.setClass(MainActivityB.this, MainActivityO.class);
         startActivity(intent);
     }
+
+    public void BConClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityB.this, MainActivityC.class);
+        startActivity(intent);
+    }
+
+    public void BEonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityB.this, MainActivityE.class);
+        startActivity(intent);
+    }
+
+    public void BGonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityB.this, MainActivityG.class);
+        startActivity(intent);
+    }
 }

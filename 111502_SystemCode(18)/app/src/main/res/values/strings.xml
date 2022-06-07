@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PetsApp</string>
+    <string-array name="petGender">
+
+        <item>性別？</item>
+        <item>不願透露</item>
+        <item>公</item>
+        <item>母</item>
+
+
+    </string-array>
+    <string-array name="petLigation">
+
+        <item>是否結紮？</item>
+        <item>不願透露</item>
+        <item>已結紮</item>
+        <item>未結紮</item>
+
+    </string-array>
 </resources>

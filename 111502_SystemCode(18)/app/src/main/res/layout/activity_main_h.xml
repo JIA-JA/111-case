@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_group_24"
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_360_24"
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
@@ -82,7 +82,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <ImageButton
@@ -96,7 +96,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <TextView
@@ -184,7 +184,19 @@
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
+        app:layout_constraintVertical_bias="0.457" />
+
+    <TextView
+        android:id="@+id/textViewFilterResultsH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="篩選結果"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
 
     <TextView
         android:id="@+id/textView80"
@@ -196,7 +208,42 @@
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常見殯葬方法說明"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCremationH"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView80"
+        app:layout_constraintEnd_toEndOf="@+id/textView80"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="@+id/textView80"
+        app:layout_constraintTop_toTopOf="@+id/textView80"
+        app:layout_constraintVertical_bias="0.483"
+        app:srcCompat="@drawable/ic_baseline_local_fire_department_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton61"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView80"
+        app:layout_constraintEnd_toEndOf="@+id/textView80"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="@+id/textView80"
+        app:layout_constraintTop_toTopOf="@+id/textView80"
+        app:layout_constraintVertical_bias="0.483"
+        app:srcCompat="@drawable/ic_baseline_waves_24" />
 
     <TextView
         android:id="@+id/textView73"
@@ -262,6 +309,7 @@
         android:id="@+id/spinnerAreaH"
         android:layout_width="229dp"
         android:layout_height="27dp"
+        android:background="#BCBCBC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.796"
@@ -273,6 +321,7 @@
         android:id="@+id/spinnerWayH"
         android:layout_width="229dp"
         android:layout_height="27dp"
+        android:background="#BCBCBC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.796"
@@ -284,6 +333,7 @@
         android:id="@+id/spinnerPriceH"
         android:layout_width="229dp"
         android:layout_height="27dp"
+        android:background="#BCBCBC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.796"
@@ -301,18 +351,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.295" />
-
-    <TextView
-        android:id="@+id/textViewFilterResultsH"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="篩選結果"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.429" />
 
     <TextView
         android:id="@+id/textViewCremationH"
@@ -350,29 +388,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton60"
         app:layout_constraintVertical_bias="0.259" />
 
-    <TextView
-        android:id="@+id/textView81"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="常見殯葬方法說明"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
-
-    <ImageButton
-        android:id="@+id/imageButtonCremationH"
-        android:layout_width="57dp"
-        android:layout_height="51dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView80"
-        app:layout_constraintEnd_toEndOf="@+id/textView80"
-        app:layout_constraintHorizontal_bias="0.167"
-        app:layout_constraintStart_toStartOf="@+id/textView80"
-        app:layout_constraintTop_toTopOf="@+id/textView80"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/ic_baseline_local_fire_department_24" />
-
     <ImageButton
         android:id="@+id/imageButton60"
         android:layout_width="57dp"
@@ -385,15 +400,4 @@
         app:layout_constraintVertical_bias="0.483"
         app:srcCompat="@drawable/ic_baseline_usb_24" />
 
-    <ImageButton
-        android:id="@+id/imageButton61"
-        android:layout_width="57dp"
-        android:layout_height="51dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView80"
-        app:layout_constraintEnd_toEndOf="@+id/textView80"
-        app:layout_constraintHorizontal_bias="0.829"
-        app:layout_constraintStart_toStartOf="@+id/textView80"
-        app:layout_constraintTop_toTopOf="@+id/textView80"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/ic_baseline_waves_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

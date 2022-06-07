@@ -38,4 +38,14 @@ public class MainActivityF extends AppCompatActivity {
         intent.setClass(MainActivityF.this, MainActivityO.class);
         startActivity(intent);
     }
+
+    public void FEonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityF.this, MainActivityE.class);
+        startActivity(intent);
+    }
+
+//    public void backonClick(View v) {
+//        MainActivityF.this.finish();
+//    }
 }

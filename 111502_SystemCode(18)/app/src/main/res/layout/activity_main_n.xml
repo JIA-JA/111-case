@@ -83,12 +83,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.147"
-        app:srcCompat="@drawable/ic_baseline_pets_24" />
+        app:srcCompat="@drawable/goyourmomselfdog"
+        tools:srcCompat="@drawable/goyourmomselfdog" />
 
     <ImageButton
         android:id="@+id/imageButtonBackN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="backonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"

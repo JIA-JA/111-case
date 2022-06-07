@@ -34,4 +34,11 @@ public class MainActivityJ extends AppCompatActivity {
         intent.setClass(MainActivityJ.this, MainActivityO.class);
         startActivity(intent);
     }
+
+    public void JLonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityJ.this, MainActivityL.class);
+        startActivity(intent);
+    }
+
 }

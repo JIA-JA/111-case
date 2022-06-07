@@ -39,4 +39,12 @@ public class MainActivityO extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void OPonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityO.this, MainActivityP.class);
+        startActivity(intent);
+    }
+
+
+
 }

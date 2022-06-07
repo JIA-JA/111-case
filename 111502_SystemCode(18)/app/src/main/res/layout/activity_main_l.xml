@@ -11,9 +11,24 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:context=".MainActivityK">
+
+        <ImageButton
+            android:id="@+id/imageButtonBackL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="backonClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007"
+            app:srcCompat="@drawable/ic_baseline_west_24" />
 
         <TextView
             android:id="@+id/textView182"
@@ -29,14 +44,15 @@
 
         <TextView
             android:id="@+id/textView110"
-            android:layout_width="378dp"
-            android:layout_height="575dp"
+            android:layout_width="374dp"
+            android:layout_height="505dp"
             android:background="#D5D5D5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintHorizontal_bias="0.459"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.323" />
 
         <ImageButton
             android:id="@+id/imageButtonToPageJL"
@@ -49,7 +65,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_group_24"
             tools:srcCompat="@drawable/ic_baseline_group_24" />
 
         <ImageButton
@@ -63,7 +79,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_person_24"
             tools:srcCompat="@drawable/ic_baseline_person_24" />
 
         <ImageButton
@@ -76,7 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_360_24"
             tools:srcCompat="@drawable/ic_baseline_360_24" />
 
         <ImageButton
@@ -90,7 +106,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_local_hospital_24"
             tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
         <ImageButton
@@ -104,7 +120,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_house_24"
             tools:srcCompat="@drawable/ic_baseline_house_24" />
 
         <TextView
@@ -230,34 +246,11 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.141" />
 
-        <ImageView
-            android:id="@+id/imageViewUserPhotoL1"
-            android:layout_width="60dp"
-            android:layout_height="58dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.105"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageView
-            android:id="@+id/imageViewUserPhotoL2"
-            android:layout_width="60dp"
-            android:layout_height="58dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.105"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.671"
-            tools:srcCompat="@tools:sample/avatars" />
-
         <TextView
             android:id="@+id/textViewYourMessageL1"
             android:layout_width="191dp"
             android:layout_height="36dp"
+            android:background="#CCCCCC"
             android:text="你好，想請問狗狗的詳細資訊"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -270,35 +263,66 @@
             android:id="@+id/textViewYourMessageL2"
             android:layout_width="191dp"
             android:layout_height="36dp"
-            android:text="感覺很不錯，請問能 跟你通個電話嗎?"
+            android:background="#CCCCCC"
+            android:text="感覺很不錯，請問能跟你通個電話嗎?"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.859"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.587" />
+            app:layout_constraintVertical_bias="0.571" />
 
         <TextView
             android:id="@+id/textViewMessageL2"
             android:layout_width="176dp"
             android:layout_height="43dp"
+            android:background="#CCCCCC"
             android:text="好的!這是我的電話話:0912-345-678"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.678" />
+            app:layout_constraintVertical_bias="0.656" />
+
+        <ImageView
+            android:id="@+id/imageViewUserPhotoL2"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.659"
+            app:srcCompat="@drawable/xavior"
+            tools:srcCompat="@drawable/xavior" />
 
         <TextView
             android:id="@+id/textViewMessageL1"
             android:layout_width="176dp"
             android:layout_height="43dp"
+            android:background="#CCCCCC"
             android:text="我們家的狗狗很非常乖，也很健康，能跑能跳喔。"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.488" />
+
+        <ImageView
+            android:id="@+id/imageViewUserPhotoL1"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.487"
+            app:srcCompat="@drawable/xavior"
+            tools:srcCompat="@drawable/xavior" />
 
         <TextView
             android:id="@+id/textViewOutputWordL"
@@ -309,10 +333,10 @@
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.231"
+            app:layout_constraintHorizontal_bias="0.225"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.871" />
+            app:layout_constraintVertical_bias="0.754" />
 
         <ImageButton
             android:id="@+id/imageButtonOutputPhotoL"
@@ -320,10 +344,10 @@
             android:layout_height="41dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.811"
+            app:layout_constraintHorizontal_bias="0.813"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.872"
+            app:layout_constraintVertical_bias="0.756"
             app:srcCompat="@drawable/ic_baseline_insert_photo_24" />
 
         <ImageButton
@@ -332,11 +356,24 @@
             android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.908"
+            app:layout_constraintHorizontal_bias="0.916"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.872"
+            app:layout_constraintVertical_bias="0.755"
             app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="103dp"
+            android:layout_height="40dp"
+            android:text="領養區"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -350,22 +387,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.154"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView171"
-        android:layout_width="103dp"
-        android:layout_height="40dp"
-        android:text="領養區"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:srcCompat="@drawable/goldbrokendog"
+        tools:srcCompat="@drawable/goldbrokendog" />
 
     <TextView
         android:id="@+id/textView172"
