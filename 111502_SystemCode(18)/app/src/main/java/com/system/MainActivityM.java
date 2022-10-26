@@ -2,7 +2,9 @@ package com.system;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivityM extends AppCompatActivity {
 
@@ -11,4 +13,5 @@ public class MainActivityM extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_m);
     }
+
 }
