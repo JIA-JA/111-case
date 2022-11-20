@@ -8,7 +8,7 @@ const query = require('./asyncDB');
 var select = async function (s_id) {
     var result;
 
-    await query(`select * from news`)
+    await query(`select sympton_name from symptom_table`)
         .then((data) => {
             result = data
         }, (error) => {

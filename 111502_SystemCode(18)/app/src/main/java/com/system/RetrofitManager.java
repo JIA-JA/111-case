@@ -8,25 +8,25 @@ public class RetrofitManager {
     // 以Singleton模式建立
     private static RetrofitManager mInstance = new RetrofitManager();
 
-    private ExampleService exampleService;
+    private APIService APIService;
 
     private RetrofitManager() {
 
         // 設置baseUrl即要連的網站，addConverterFactory用Gson作為資料處理Converter
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://fd73-211-21-101-140.jp.ngrok.io")
+                .baseUrl("https://ba79-2001-b400-e2a8-bd11-57-2a28-a95d-c930.jp.ngrok.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        exampleService = retrofit.create(ExampleService.class);
+        APIService = retrofit.create(APIService.class);
     }
 
     public static RetrofitManager getInstance() {
         return mInstance;
     }
 
-    public ExampleService getAPI() {
-        return exampleService;
+    public APIService getAPI() {
+        return APIService;
     }
 }
 

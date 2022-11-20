@@ -6,12 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.system.databinding.ActivityMainBinding;
-
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -19,8 +15,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    ExampleService exampleService;
-    RecycleViewAdapter adapter;
+    APIService APIService;
     private ActivityMainBinding binding;
 
     @Override
@@ -28,27 +23,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        TextView textView = findViewById(R.id.textViewTextA1);
+        TextView textView1 = findViewById(R.id.textViewUserNameA1);
+        TextView textView2 = findViewById(R.id.textViewTagA1);
+        TextView textView3 = findViewById(R.id.textViewTextA1);
+        TextView textView4 = findViewById(R.id.textViewGreatNumA1);
 
-        exampleService=RetrofitManager.getInstance().getAPI();
-
-        Call<ResponseFormat<List<Example>>> call=exampleService.listExamples();
-        call.enqueue(new Callback<ResponseFormat<List<Example>>>() {
+        APIService =RetrofitManager.getInstance().getAPI();
+        Call<ResponseFormat<API1>> call= APIService.listExamples1();
+        call.enqueue(new Callback<ResponseFormat<API1>>() {
             @Override
-            public void onResponse(Call<ResponseFormat<List<Example>>> call, Response<ResponseFormat<List<Example>>> response) {
+            public void onResponse(Call<ResponseFormat<API1>> call, Response<ResponseFormat<API1>> response) {
                 System.out.println("connect ok");
                 System.out.println(response.body().getData());
-                if(!response.body().getData().isEmpty()){
-                    System.out.println(response.body().getData().size());
-                    RecyclerView recyclerView = findViewById(R.id.recyclerView);
-                    adapter = new RecycleViewAdapter(getApplicationContext(), response.body().getData());
-                    recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    recyclerView.setAdapter(adapter);
-                    textView.setText(adapter.toString());
+                if(response.body().getData()!=null){
+                    textView1.setText(response.body().getData().getUser_name());
+                    textView2.setText(response.body().getData().getTag_());
+                    textView3.setText(response.body().getData().getContent());
+                    String string4 = Integer.toString(response.body().getData().getLike_num());
+                    textView4.setText(string4);
                     }
                 }
             @Override
-            public void onFailure(Call<ResponseFormat<List<Example>>> call, Throwable t) {
+            public void onFailure(Call<ResponseFormat<API1>> call, Throwable t) {
                 System.out.println("fail");
                 t.fillInStackTrace();
                 System.out.println(t.getMessage());

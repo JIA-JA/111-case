@@ -1,6 +1,6 @@
 package com.system;
 
-public class Example {
+public class API1 {
     private String user_id;
     private String user_name;
     private String tag_;
@@ -8,33 +8,29 @@ public class Example {
     private int like_num;
     private String message;
     private String user_msgreply;
-    public Example(String ui, String un, String t, String c, int l, String m, String um){
-        this.user_id = ui;
-        this.user_name = un;
-        this.tag_ = t;
-        this.content = c;
-        this.like_num = l;
-        this.message = m;
-        this.user_msgreply = um;
-    }
-
-    public String getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(String user_id) {
+    public API1(String user_id, String user_name, String tag_, String content, int like_num, String message, String user_msgreply){
         this.user_id = user_id;
+        this.user_name = user_name;
+        this.tag_ = tag_;
+        this.content = content;
+        this.like_num = like_num;
+        this.message = message;
+        this.user_msgreply = user_msgreply;
     }
 
     public String getUser_name() {
         return user_name;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public String getTag_() {
+        return tag_;
     }
 
     public String getContent(){return content;}
+
+    public int getLike_num() {
+        return like_num;
+    }
 
     public String toString(){
         return "user_id:"+user_id+"\tuser_name:"+user_name+"\ttag_:"+tag_+"\tcontent:"+content
