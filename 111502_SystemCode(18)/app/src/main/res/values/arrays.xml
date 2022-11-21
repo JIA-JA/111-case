@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerPriceValue">
+        <item>價位不限</item>
+        <item>5000(不含)以下</item>
+        <item>5000~10000</item>
+        <item>10000(不含)以上</item>
+    </string-array>
+    <string-array name="spinnerWayValue">
+        <item>處理方法不限</item>
+        <item>火葬</item>
+        <item>樹葬</item>
+        <item>海葬</item>
+    </string-array>
+    <string-array name="spinnerAreaValue">
+        <item>地區不限</item>
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+    </string-array>
+    <string-array name="spinnerPetGenderValue">
+        <item>公</item>
+        <item>母</item>
+    </string-array>
+    <string-array name="spinnerPetLigationValue">
+        <item>已結紮</item>
+        <item>未結紮</item>
+    </string-array>
+</resources>

@@ -193,6 +193,7 @@
 
     <Spinner
         android:id="@+id/spinnerPetLigationP"
+        android:entries="@array/spinnerPetLigationValue"
         android:layout_width="346dp"
         android:layout_height="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -206,6 +207,7 @@
         android:id="@+id/spinnerPetGenderP"
         android:layout_width="346dp"
         android:layout_height="36dp"
+        android:entries="@array/spinnerPetGenderValue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -250,6 +252,7 @@
         android:ems="10"
         android:hint="名字"
         android:inputType="textPersonName"
+        android:text="咪咪"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -265,6 +268,7 @@
         android:ems="10"
         android:hint="動物"
         android:inputType="textPersonName"
+        android:text="貓"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -24,7 +24,7 @@ public class MainActivityC extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        setContentView(R.layout.activity_main_c);
 
         APIService =RetrofitManager.getInstance().getAPI();
         Call<ResponseFormat<List<API2>>> call= APIService.listExamples2();
@@ -35,7 +35,10 @@ public class MainActivityC extends AppCompatActivity {
                 System.out.println(response.body().getData());
                 if(!response.body().getData().isEmpty()){
                     System.out.println(response.body().getData().size());
-                    adapter = new RecycleViewAdapter(getApplicationContext(), response.body().getData());
+//                    for (API2:response.body().getData()
+//                         ) {
+//                        System.out.println(response.body().getData());
+//                    }
                 }
             }
             @Override

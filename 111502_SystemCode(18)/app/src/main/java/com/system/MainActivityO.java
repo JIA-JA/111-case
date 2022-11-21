@@ -1,10 +1,10 @@
 package com.system;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivityO extends AppCompatActivity {
 
@@ -31,6 +31,11 @@ public class MainActivityO extends AppCompatActivity {
     public void OJonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityO.this, MainActivityJ.class);
+        startActivity(intent);
+    }
+    public void OPnClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityO.this, MainActivityP.class);
         startActivity(intent);
     }
 

@@ -101,10 +101,10 @@
         android:text="讚"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.955" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -151,7 +151,7 @@
         android:text="100"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toStartOf="@+id/radioButtonGreatNumA1"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.956" />
@@ -172,27 +172,27 @@
 
     <TextView
         android:id="@+id/textViewUserNameA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
         android:text="割步霖"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.066" />
 
     <TextView
         android:id="@+id/textViewTagA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="#各種有特色的標籤(紫色優)"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="#標籤(紫色優)"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.187" />
 
     <TextView
         android:id="@+id/textViewTextA1"

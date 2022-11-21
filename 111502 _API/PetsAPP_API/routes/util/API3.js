@@ -8,7 +8,7 @@ const query = require('./asyncDB');
 var select = async function (s_id) {
     var result;
 
-    await query(`select * from symptom_table`)
+    await query(`select funeral_name,funeral_address,funeral_price,funeral_way from funeral_merchant where funeral_price<5000`)
         .then((data) => {
             result = data
         }, (error) => {

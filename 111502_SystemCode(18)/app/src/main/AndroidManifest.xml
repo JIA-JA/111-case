@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -8,22 +10,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PetsApp">
-        <activity android:name=".MainActivityP"></activity>
-        <activity android:name=".MainActivityO" android:exported="true"/>
-        <activity android:name=".MainActivityN" android:exported="true"/>
-        <activity android:name=".MainActivityM" android:exported="true"/>
-        <activity android:name=".MainActivityL" android:exported="true"/>
-        <activity android:name=".MainActivityK" android:exported="true"/>
-        <activity android:name=".MainActivityJ" android:exported="true"/>
-        <activity android:name=".MainActivityI" android:exported="true"/>
-        <activity android:name=".MainActivityH" android:exported="true"/>
-        <activity android:name=".MainActivityG" android:exported="true"/>
-        <activity android:name=".MainActivityF" android:exported="true"/>
-        <activity android:name=".MainActivityE" android:exported="true"/>
-        <activity android:name=".MainActivityD" android:exported="true"/>
-        <activity android:name=".MainActivityC" android:exported="true"/>
-        <activity android:name=".MainActivityB" android:exported="true"/>
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity android:name=".MainActivityP" />
+        <activity
+            android:name=".MainActivityO"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityN"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityM"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityL"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityK"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityJ"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityI"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityH"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityG"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityF"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityE"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityD"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityC"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityB"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
