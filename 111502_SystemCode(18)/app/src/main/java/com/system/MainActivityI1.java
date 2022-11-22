@@ -13,8 +13,6 @@ public class MainActivityI1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_i1);
-        TextView textViewTitle = findViewById(R.id.textViewTitleI);
-        textViewTitle.setText("火葬");
         TextView textView = findViewById(R.id.textViewTextI1);
         textView.setText("寵物火化方式與人類大致相同:  \n" +
                 "‧ 選擇日期：挑選欲火化與下葬的吉日。  \n" +
@@ -26,6 +24,9 @@ public class MainActivityI1 extends AppCompatActivity {
                 "‧ 火化與撿骨：將大體移至火化爐進行寵物火化儀式與撿骨。  \n" +
                 "‧ 進塔：將骨灰裝入骨灰罈內保存，進入塔位安厝。");
     }
+    public void BackonClick(View v) {
+        finish();
+    }
     public void IAonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityI1.this, MainActivity.class);
@@ -34,11 +35,6 @@ public class MainActivityI1 extends AppCompatActivity {
     public void IBonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityI1.this, MainActivityB.class);
-        startActivity(intent);
-    }
-    public void IHonClick(View v) {
-        Intent intent = new Intent();
-        intent.setClass(MainActivityI1.this, MainActivityH.class);
         startActivity(intent);
     }
     public void IJonClick(View v) {

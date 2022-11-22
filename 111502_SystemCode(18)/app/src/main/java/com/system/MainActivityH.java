@@ -84,7 +84,7 @@ public class MainActivityH extends AppCompatActivity {
                     RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
                     adapter = new RecycleViewAdapter(getApplicationContext(), response.body().getData());
                     recyclerViewFilterResults.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(20));
+                    recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(30));
                     recyclerViewFilterResults.setAdapter(adapter);
                 }
             }
@@ -109,6 +109,16 @@ public class MainActivityH extends AppCompatActivity {
     public void HI1onClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityH.this, MainActivityI1.class);
+        startActivity(intent);
+    }
+    public void HI2onClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityH.this, MainActivityI2.class);
+        startActivity(intent);
+    }
+    public void HI3onClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityH.this, MainActivityI3.class);
         startActivity(intent);
     }
     public void HJonClick(View v) {

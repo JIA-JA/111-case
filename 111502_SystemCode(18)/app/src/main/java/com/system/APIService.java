@@ -13,7 +13,7 @@ public interface APIService {
     Call<com.system.ResponseFormat<API1>> listExamples1();
 
     @GET("API2")
-    Call<com.system.ResponseFormat<List<API2>>> listExamples2();
+    Call<com.system.ResponseFormat<API2>> listExamples2();
 
     @GET("API3")
     Call<com.system.ResponseFormat<List<API3>>> listExamples3();

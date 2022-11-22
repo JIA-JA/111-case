@@ -7,8 +7,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.system.databinding.ActivityMainBinding;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -16,13 +14,12 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     APIService APIService;
-    private ActivityMainBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        setContentView(R.layout.activity_main);
         TextView textView1 = findViewById(R.id.textViewUserNameA1);
         TextView textView2 = findViewById(R.id.textViewTagA1);
         TextView textView3 = findViewById(R.id.textViewTextA1);

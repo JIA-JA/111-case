@@ -6,44 +6,15 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
 public class MainActivityC extends AppCompatActivity {
-
-    APIService APIService;
-    RecycleViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_c);
-
-        APIService =RetrofitManager.getInstance().getAPI();
-        Call<ResponseFormat<List<API2>>> call= APIService.listExamples2();
-        call.enqueue(new Callback<ResponseFormat<List<API2>>>() {
-            @Override
-            public void onResponse(Call<ResponseFormat<List<API2>>> call, Response<ResponseFormat<List<API2>>> response) {
-                System.out.println("connect ok");
-                System.out.println(response.body().getData());
-                if(!response.body().getData().isEmpty()){
-                    System.out.println(response.body().getData().size());
-//                    for (API2:response.body().getData()
-//                         ) {
-//                        System.out.println(response.body().getData());
-//                    }
-                }
-            }
-            @Override
-            public void onFailure(Call<ResponseFormat<List<API2>>> call, Throwable t) {
-                System.out.println("fail");
-                t.fillInStackTrace();
-                System.out.println(t.getMessage());
-            }
-        });
+    }
+    public void BackonClick(View v) {
+        finish();
     }
     public void CAonClick(View v) {
         Intent intent = new Intent();
