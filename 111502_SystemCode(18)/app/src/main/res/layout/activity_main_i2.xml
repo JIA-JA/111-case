@@ -168,7 +168,7 @@
     <TextView
         android:id="@+id/textView12"
         android:layout_width="360dp"
-        android:layout_height="382dp"
+        android:layout_height="360dp"
         android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -204,17 +204,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
-
-    <TextView
-        android:id="@+id/textViewTextI2"
-        android:layout_width="324dp"
-        android:layout_height="353dp"
-        android:text="內容描述"
-        android:textSize="17sp"
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256" />
+        app:layout_constraintVertical_bias="0.218"
+        tools:context=".MainActivityI2">
+        <TextView
+            android:id="@+id/textViewTextI2"
+            android:layout_width="324dp"
+            android:layout_height="353dp"
+            android:text="內容描述"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.256" />
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
