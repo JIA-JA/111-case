@@ -30,7 +30,7 @@
             android:name=".MainActivityJ"
             android:exported="true" />
         <activity
-            android:name=".MainActivityI"
+            android:name=".MainActivityI1"
             android:exported="true" />
         <activity
             android:name=".MainActivityH"

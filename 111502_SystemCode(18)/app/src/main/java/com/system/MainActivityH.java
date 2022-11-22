@@ -11,8 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.system.databinding.ActivityMainBinding;
-
 import java.util.List;
 
 import retrofit2.Call;
@@ -23,7 +21,6 @@ public class MainActivityH extends AppCompatActivity {
 
     APIService APIService;
     RecycleViewAdapter adapter;
-    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,7 +106,11 @@ public class MainActivityH extends AppCompatActivity {
         intent.setClass(MainActivityH.this, MainActivityB.class);
         startActivity(intent);
     }
-
+    public void HI1onClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityH.this, MainActivityI1.class);
+        startActivity(intent);
+    }
     public void HJonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityH.this, MainActivityJ.class);

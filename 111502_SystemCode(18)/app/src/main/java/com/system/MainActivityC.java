@@ -6,8 +6,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.system.databinding.ActivityMainBinding;
-
 import java.util.List;
 
 import retrofit2.Call;
@@ -18,12 +16,10 @@ public class MainActivityC extends AppCompatActivity {
 
     APIService APIService;
     RecycleViewAdapter adapter;
-    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_main_c);
 
         APIService =RetrofitManager.getInstance().getAPI();

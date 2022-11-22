@@ -167,7 +167,6 @@
         android:id="@+id/textView74"
         android:layout_width="374dp"
         android:layout_height="180dp"
-        android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
@@ -199,6 +198,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.17" />
 
+    <Spinner
+        android:id="@+id/spinnerAreaH"
+        android:layout_width="229dp"
+        android:layout_height="27dp"
+        android:entries="@array/spinnerAreaValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
     <TextView
         android:id="@+id/textViewWayH"
         android:layout_width="82dp"
@@ -228,18 +239,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.23" />
-
-    <Spinner
-        android:id="@+id/spinnerAreaH"
-        android:layout_width="229dp"
-        android:layout_height="27dp"
-        android:entries="@array/spinnerAreaValue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
 
     <ImageButton
         android:id="@+id/searchButtonH"
@@ -297,9 +296,10 @@
         app:layout_constraintVertical_bias="0.747" />
 
     <ImageButton
-        android:id="@+id/imageButton60"
+        android:id="@+id/imageButtonTreeBurialH"
         android:layout_width="57dp"
         android:layout_height="51dp"
+        android:onClick="HI2onClick"
         app:layout_constraintBottom_toBottomOf="@+id/textView80"
         app:layout_constraintEnd_toEndOf="@+id/textView80"
         app:layout_constraintHorizontal_bias="0.492"
@@ -317,7 +317,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView80"
         app:layout_constraintHorizontal_bias="0.797"
         app:layout_constraintStart_toStartOf="@+id/textView80"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton61"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonSeaBurialH"
         app:layout_constraintVertical_bias="0.222" />
 
     <TextView
@@ -336,6 +336,7 @@
         android:id="@+id/imageButtonCremationH"
         android:layout_width="57dp"
         android:layout_height="51dp"
+        android:onClick="HI1onClick"
         app:layout_constraintBottom_toBottomOf="@+id/textView80"
         app:layout_constraintEnd_toEndOf="@+id/textView80"
         app:layout_constraintHorizontal_bias="0.167"
@@ -353,7 +354,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView80"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="@+id/textView80"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton60"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonTreeBurialH"
         app:layout_constraintVertical_bias="0.259" />
 
     <TextView
@@ -368,9 +369,10 @@
         app:layout_constraintVertical_bias="0.633" />
 
     <ImageButton
-        android:id="@+id/imageButton61"
+        android:id="@+id/imageButtonSeaBurialH"
         android:layout_width="57dp"
         android:layout_height="51dp"
+        android:onClick="HI3onClick"
         app:layout_constraintBottom_toBottomOf="@+id/textView80"
         app:layout_constraintEnd_toEndOf="@+id/textView80"
         app:layout_constraintHorizontal_bias="0.829"

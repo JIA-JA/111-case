@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityI">
+    tools:context=".MainActivityI1">
 
     <TextView
         android:id="@+id/textView98"
@@ -177,9 +177,10 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <ImageButton
-        android:id="@+id/imageButton68"
+        android:id="@+id/imageButtonBackI1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="IHonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -204,10 +205,10 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <TextView
-        android:id="@+id/textViewTextI"
+        android:id="@+id/textViewTextI1"
         android:layout_width="324dp"
         android:layout_height="353dp"
-        android:text="寵物火化方式與人類大致相同:  ‧ 選擇日期：挑選欲火化與下葬的吉日。  ‧ 告別式：寵物火化前會舉辦告別式，讓飼主追思道別。  ‧ 火化與撿骨：將大體移至火化爐進行寵物火化儀式與撿骨。  ‧ 進塔：將骨灰裝入骨灰罈內保存，進入塔位安厝。寵物火化方式與人類大致相同:  ‧ 選擇日期：挑選欲火化與下葬的吉日。  ‧ 告別式：寵物火化前會舉辦告別式，讓飼主追思道別。  ‧ 火化與撿骨：將大體移至火化爐進行寵物火化儀式與撿骨。  ‧ 進塔：將骨灰裝入骨灰罈內保存，進入塔位安厝。"
+        android:text="內容描述"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -12,7 +12,7 @@ public class API3 {
         this.funeral_way = funeral_way;
     }
     public String getAllData(){
-        return funeral_name+"\n"+funeral_address+"\n"+funeral_price+"\n"+funeral_way+"\n";
+        return "店家: "+funeral_name+"\n地址: "+funeral_address+"\n價格: "+funeral_price+"\n處理方式: "+funeral_way+"\n";
     }
     public String toString(){
         return "funeral_name: "+funeral_name+
