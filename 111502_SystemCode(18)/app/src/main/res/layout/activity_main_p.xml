@@ -222,6 +222,7 @@
         android:ems="10"
         android:hint="品種"
         android:inputType="textPersonName"
+        android:text="米克斯"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -237,6 +238,7 @@
         android:ems="10"
         android:hint="晶片號碼"
         android:inputType="textPersonName"
+        android:text="**********"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -302,7 +304,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.134"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/cat"
+        tools:srcCompat="@drawable/cat" />
 
     <TextView
         android:id="@+id/textView192"

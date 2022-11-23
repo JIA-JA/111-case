@@ -264,6 +264,7 @@
         android:id="@+id/imageButtonVaccineE"
         android:layout_width="88dp"
         android:layout_height="83dp"
+        android:onClick="EFonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"

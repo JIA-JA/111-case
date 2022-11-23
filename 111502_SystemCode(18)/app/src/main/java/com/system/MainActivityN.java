@@ -1,8 +1,9 @@
 package com.system;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivityN extends AppCompatActivity {
 
@@ -10,5 +11,8 @@ public class MainActivityN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_n);
+    }
+    public void BackonClick(View v) {
+        finish();
     }
 }

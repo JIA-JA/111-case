@@ -10,6 +10,7 @@
         android:id="@+id/buttonLoginO"
         android:layout_width="368dp"
         android:layout_height="50dp"
+        android:onClick="LoginonClick"
         android:text="登入"
         android:textSize="20sp"
         app:backgroundTint="#8BC34A"
@@ -98,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <TextView
@@ -271,7 +272,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.183"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageView
         android:id="@+id/imageViewPet"
@@ -283,7 +285,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/cat"
+        tools:srcCompat="@drawable/cat" />
 
     <TextView
         android:id="@+id/textView159"

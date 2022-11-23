@@ -76,7 +76,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.821"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dog3"
+        tools:srcCompat="@drawable/dog3" />
 
     <TextView
         android:id="@+id/textViewVarietyJ2"
@@ -304,7 +305,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.562"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dog2"
+        tools:srcCompat="@drawable/dog2" />
 
     <TextView
         android:id="@+id/textViewVarietyJ1"
@@ -488,7 +490,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.273"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dog1"
+        tools:srcCompat="@drawable/dog1" />
 
     <Button
         android:id="@+id/buttonYourMessageJ1"
