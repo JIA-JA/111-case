@@ -26,6 +26,9 @@ public class MainActivityH extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_h);
+        RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
+        recyclerViewFilterResults.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+        recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(40));
 
         Spinner spinnerPrice = findViewById(R.id.spinnerPriceH);
         Spinner spinnerWay = findViewById(R.id.spinnerWayH);
@@ -83,8 +86,6 @@ public class MainActivityH extends AppCompatActivity {
                     System.out.println(response.body().getData().size());
                     RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
                     adapter = new RecycleViewAdapter(getApplicationContext(), response.body().getData());
-                    recyclerViewFilterResults.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(40));
                     recyclerViewFilterResults.setAdapter(adapter);
                 }
             }
