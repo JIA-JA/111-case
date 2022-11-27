@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerPriceValue">
+        <item>價位不限</item>
+        <item>5000(不含)以下</item>
+        <item>5000~10000</item>
+        <item>10000(不含)以上</item>
+    </string-array>
+    <string-array name="spinnerWayValue">
+        <item>處理方法不限</item>
+        <item>火葬</item>
+        <item>樹葬</item>
+        <item>海葬</item>
+    </string-array>
+    <string-array name="spinnerAreaValue">
+        <item>地區不限</item>
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>基隆縣</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>台中市</item>
+        <item>彰化縣</item>
+        <item>雲林縣</item>
+        <item>南投縣</item>
+        <item>嘉義縣</item>
+        <item>台南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>台東縣</item>
+        <item>連江縣(媽祖)</item>
+        <item>金門縣</item>
+        <item>澎湖縣</item>
+    </string-array>
+    <string-array name="spinnerPetGenderValue">
+        <item>公</item>
+        <item>母</item>
+    </string-array>
+    <string-array name="spinnerPetLigationValue">
+        <item>已結紮</item>
+        <item>未結紮</item>
+    </string-array>
+    <string-array name="spinnerVariety">
+        <item>不限品種</item>
+        <item>黃金獵犬</item>
+        <item>哈士奇</item>
+        <item>吉娃娃</item>
+        <item>博美</item>
+        <item>柴犬</item>
+        <item>臘腸</item>
+        <item>馬爾濟斯</item>
+        <item>蝴蝶犬</item>
+        <item>鬥牛犬</item>
+        <item>薩摩耶</item>
+    </string-array>
+</resources>
