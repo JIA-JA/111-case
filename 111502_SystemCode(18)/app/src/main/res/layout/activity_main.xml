@@ -91,6 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.199"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@tools:sample/avatars" />
 
     <RadioButton
@@ -100,10 +101,10 @@
         android:text="讚"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.955" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -150,7 +151,7 @@
         android:text="100"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toStartOf="@+id/radioButtonGreatNumA1"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.956" />
@@ -171,27 +172,28 @@
 
     <TextView
         android:id="@+id/textViewUserNameA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
         android:text="割步霖"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.066" />
 
     <TextView
         android:id="@+id/textViewTagA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="#各種有特色的標籤(紫色優)"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="#標籤(紫色優)"
+        android:textColor="#9C27B0"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.187" />
 
     <TextView
         android:id="@+id/textViewTextA1"
@@ -228,7 +230,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_group_24"
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
@@ -242,7 +244,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <ImageButton
@@ -256,7 +258,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_360_24"
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
@@ -270,7 +272,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
@@ -283,7 +285,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <TextView
@@ -326,8 +328,8 @@
 
     <TextView
         android:id="@+id/textViewToPageJA"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="47dp"
+        android:layout_height="16dp"
         android:onClick="AJonClick"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -349,18 +351,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99" />
-
-    <TextView
-        android:id="@+id/textViewShowMoreA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="顯示更多"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textViewTextA1"
-        app:layout_constraintEnd_toEndOf="@+id/textViewTextA1"
-        app:layout_constraintHorizontal_bias="0.003"
-        app:layout_constraintStart_toStartOf="@+id/textViewTextA1"
-        app:layout_constraintTop_toTopOf="@+id/textViewTextA1"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

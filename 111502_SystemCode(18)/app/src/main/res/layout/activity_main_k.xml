@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityK">
 
+    <ImageButton
+        android:id="@+id/imageButtonBackK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BackonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/ic_baseline_west_24" />
+
     <TextView
         android:id="@+id/textView156"
         android:layout_width="408dp"
@@ -29,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_group_24"
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
@@ -43,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
@@ -57,7 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_360_24"
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
@@ -71,7 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <ImageButton
@@ -85,7 +98,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <TextView
@@ -103,8 +116,8 @@
 
     <TextView
         android:id="@+id/textViewToPageJK"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="47dp"
+        android:layout_height="18dp"
         android:onClick="KJonClick"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -257,7 +270,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.154"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dog1"
+        tools:srcCompat="@drawable/dog1" />
 
     <TextView
         android:id="@+id/textView109"
@@ -267,7 +281,6 @@
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -314,13 +327,15 @@
         android:id="@+id/imageViewUserPhotoK1"
         android:layout_width="60dp"
         android:layout_height="58dp"
+        android:onClick="KLonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/geewuawua"
+        tools:srcCompat="@drawable/geewuawua" />
 
     <ImageView
         android:id="@+id/imageViewUserPhotoK2"
@@ -332,6 +347,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.542"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/cat"
+        tools:srcCompat="@drawable/cat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

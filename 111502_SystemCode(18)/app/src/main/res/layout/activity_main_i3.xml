@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityI3">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="408dp"
+        android:layout_height="68dp"
+        android:background="#DFDFDF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonToPageJI3"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:onClick="IJonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_group_24"
+        tools:srcCompat="@drawable/ic_baseline_group_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonToPageOI3"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:onClick="IOonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        tools:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonToPageHI3"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:onClick="IHonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_360_24"
+        tools:srcCompat="@drawable/ic_baseline_360_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonToPageAI3"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:onClick="IAonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_house_24"
+        tools:srcCompat="@drawable/ic_baseline_house_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonToPageBI3"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:onClick="IBonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
+        tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
+
+    <TextView
+        android:id="@+id/textViewToPageBI3"
+        android:layout_width="49dp"
+        android:layout_height="18dp"
+        android:onClick="IBonClick"
+        android:text="保健區"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <TextView
+        android:id="@+id/textViewToPageJI3"
+        android:layout_width="44dp"
+        android:layout_height="17dp"
+        android:onClick="IJonClick"
+        android:text="領養區"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+    <TextView
+        android:id="@+id/textViewToPageOI3"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:onClick="IOonClick"
+        android:text="個人資料"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <TextView
+        android:id="@+id/textViewToPageAI3"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:onClick="IAonClick"
+        android:text="動態消息"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <TextView
+        android:id="@+id/textViewToPageHI3"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:onClick="IHonClick"
+        android:text="殯葬服務"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageButton
+        android:id="@+id/imageButtonADI2"
+        android:layout_width="387dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="#D5D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBackI3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BackonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/ic_baseline_west_24" />
+
+    <TextView
+        android:id="@+id/textViewTitleI3"
+        android:layout_width="54dp"
+        android:layout_height="34dp"
+        android:text="海葬"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:background="#D5D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
+        tools:context=".MainActivityI3">
+        <TextView
+            android:id="@+id/textViewTextI3"
+            android:layout_width="324dp"
+            android:layout_height="353dp"
+            android:text="內容描述"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.256" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

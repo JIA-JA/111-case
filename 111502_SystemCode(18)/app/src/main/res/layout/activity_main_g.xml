@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_group_24"
         tools:srcCompat="@drawable/ic_baseline_group_24" />
 
     <ImageButton
@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_person_24"
         tools:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_360_24"
         tools:srcCompat="@drawable/ic_baseline_360_24" />
 
     <ImageButton
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24"
         tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
     <ImageButton
@@ -85,7 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_sys_upload_done"
+        app:srcCompat="@drawable/ic_baseline_house_24"
         tools:srcCompat="@drawable/ic_baseline_house_24" />
 
     <TextView
@@ -103,13 +103,13 @@
 
     <TextView
         android:id="@+id/textViewToPageJG"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="43dp"
+        android:layout_height="16dp"
         android:onClick="GJonClick"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99" />
@@ -155,98 +155,126 @@
     <TextView
         android:id="@+id/textView63"
         android:layout_width="354dp"
-        android:layout_height="69dp"
+        android:layout_height="75dp"
         android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.105" />
 
     <Button
-        android:id="@+id/buttonHealthNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
-        android:text="健康檢查"
+        android:id="@+id/buttonVaccineNoticeG"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="疫苗須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
-
-    <Button
-        android:id="@+id/buttonPetDentistryG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
-        android:text="寵物牙科"
-        android:textSize="10sp"
-        app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
-
-    <Button
-        android:id="@+id/buttonWeightControlG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
-        android:text="體重控制"
-        android:textSize="10sp"
-        app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <Button
         android:id="@+id/buttonWaferNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:text="晶片須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.154" />
 
     <Button
         android:id="@+id/buttonSummerNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:text="夏日須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintHorizontal_bias="0.643"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/buttonHealthNoticeG"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="健康檢查"
+        android:textSize="10sp"
+        app:backgroundTint="#727273"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
 
     <Button
         android:id="@+id/buttonAutumnWinterNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:text="秋冬須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/buttonPetDentistryG"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="寵物牙科"
+        android:textSize="10sp"
+        app:backgroundTint="#727273"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/buttonInsectPreventionNoticeG"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="防蟲須知"
+        android:textSize="10sp"
+        app:backgroundTint="#727273"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/buttonWeightControlG"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="體重控制"
+        android:textSize="10sp"
+        app:backgroundTint="#727273"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
 
     <TextView
         android:id="@+id/textView64"
@@ -277,6 +305,7 @@
         android:id="@+id/imageButtonBackG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="BackonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -285,56 +314,43 @@
         app:layout_constraintVertical_bias="0.018"
         app:srcCompat="@drawable/ic_baseline_west_24" />
 
-    <Button
-        android:id="@+id/buttonVaccineNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
-        android:text="疫苗須知"
-        android:textSize="10sp"
-        app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
-
-    <Button
-        android:id="@+id/buttonInsectPreventionNoticeG"
-        android:layout_width="76dp"
-        android:layout_height="31dp"
-        android:text="防蟲須知"
-        android:textSize="10sp"
-        app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
-
     <TextView
         android:id="@+id/textViewTitleG"
-        android:layout_width="86dp"
+        android:layout_width="80dp"
         android:layout_height="25dp"
         android:text="疫苗須知"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.237" />
 
-    <TextView
-        android:id="@+id/textViewTextG"
-        android:layout_width="333dp"
-        android:layout_height="391dp"
-        android:text="毛寶貝剛出生時，會從母乳中獲得「移行抗體」(可以幫助抵抗、防禦部分傳染病)，不過「移行抗體」會隨著時間而逐漸減少，此時會增加感染疾病的風險，為了幫毛寶貝增加抵抗力、降低傳染風險就需要注射疫苗。雖然施打疫苗不等於100%完全預防疾病，不過有施打疫苗就是給毛寶貝多一層保護，因為部分傳染病，可能會有：迅速傳播、人畜共通、死亡率高…等問題，如：犬小病毒(CPV-2)、犬瘟熱(CDV)、狂犬病(Rabies)、貓瘟(FP)、貓白血病FeLV等傳染病。你知道寶貝該施打那些疫苗嗎？根據2015年 wsava世界小動物獸醫協會的VGG疫苗指南研議小組發表的「犬貓疫苗注射指南」，當中提到疫苗可分為核心疫苗跟非核心疫苗，核心疫苗是無論在任何情況、處於任何國家，所有的犬貓都應該接受注射的疫苗，可以保護犬貓免受嚴重、致死性的全球性疾病危害，如:犬瘟熱病毒、犬腺病毒、犬小病毒、貓瘟、貓皰疹病毒、貓卡西里病毒。 ※ 特別注意：在狂犬病流行疫區，無"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView64"
-        app:layout_constraintEnd_toEndOf="@+id/textView64"
-        app:layout_constraintStart_toStartOf="@+id/textView64"
-        app:layout_constraintTop_toTopOf="@+id/textView64"
-        app:layout_constraintVertical_bias="0.753" />
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:background="#D5D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:context=".MainActivityG">
+
+        <TextView
+            android:id="@+id/textViewTextG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:text="內容描述"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView64"
+            app:layout_constraintEnd_toEndOf="@+id/textView64"
+            app:layout_constraintStart_toStartOf="@+id/textView64"
+            app:layout_constraintTop_toTopOf="@+id/textView64"
+            app:layout_constraintVertical_bias="0.753" />
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

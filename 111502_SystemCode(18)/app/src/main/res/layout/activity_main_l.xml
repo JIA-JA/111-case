@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityL">
 
+    <ImageButton
+        android:id="@+id/imageButtonBackL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BackonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/ic_baseline_west_24" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -49,7 +62,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_group_24"
             tools:srcCompat="@drawable/ic_baseline_group_24" />
 
         <ImageButton
@@ -63,7 +76,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_person_24"
             tools:srcCompat="@drawable/ic_baseline_person_24" />
 
         <ImageButton
@@ -76,7 +89,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_360_24"
             tools:srcCompat="@drawable/ic_baseline_360_24" />
 
         <ImageButton
@@ -90,7 +103,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_local_hospital_24"
             tools:srcCompat="@drawable/ic_baseline_local_hospital_24" />
 
         <ImageButton
@@ -104,7 +117,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:drawable/stat_sys_upload_done"
+            app:srcCompat="@drawable/ic_baseline_house_24"
             tools:srcCompat="@drawable/ic_baseline_house_24" />
 
         <TextView
@@ -122,13 +135,13 @@
 
         <TextView
             android:id="@+id/textViewToPageJL"
-            android:layout_width="50dp"
-            android:layout_height="15dp"
+            android:layout_width="44dp"
+            android:layout_height="16dp"
             android:onClick="LJonClick"
             android:text="領養區"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.742"
+            app:layout_constraintHorizontal_bias="0.735"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.99" />
@@ -236,11 +249,12 @@
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:layout_constraintVertical_bias="0.402"
+            app:srcCompat="@drawable/geewuawua"
+            tools:srcCompat="@drawable/geewuawua" />
 
         <ImageView
             android:id="@+id/imageViewUserPhotoL2"
@@ -251,8 +265,9 @@
             app:layout_constraintHorizontal_bias="0.105"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.671"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:layout_constraintVertical_bias="0.589"
+            app:srcCompat="@drawable/geewuawua"
+            tools:srcCompat="@drawable/geewuawua" />
 
         <TextView
             android:id="@+id/textViewYourMessageL1"
@@ -261,10 +276,10 @@
             android:text="你好，想請問狗狗的詳細資訊"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintHorizontal_bias="0.536"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.398" />
+            app:layout_constraintVertical_bias="0.4" />
 
         <TextView
             android:id="@+id/textViewYourMessageL2"
@@ -273,22 +288,22 @@
             android:text="感覺很不錯，請問能 跟你通個電話嗎?"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintHorizontal_bias="0.536"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.587" />
+            app:layout_constraintVertical_bias="0.585" />
 
         <TextView
             android:id="@+id/textViewMessageL2"
-            android:layout_width="176dp"
-            android:layout_height="43dp"
+            android:layout_width="125dp"
+            android:layout_height="45dp"
             android:text="好的!這是我的電話話:0912-345-678"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.944"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.678" />
+            app:layout_constraintVertical_bias="0.677" />
 
         <TextView
             android:id="@+id/textViewMessageL1"
@@ -297,6 +312,7 @@
             android:text="我們家的狗狗很非常乖，也很健康，能跑能跳喔。"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -320,7 +336,7 @@
             android:layout_height="41dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.811"
+            app:layout_constraintHorizontal_bias="0.858"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.872"
@@ -332,11 +348,23 @@
             android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.908"
+            app:layout_constraintHorizontal_bias="0.937"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.872"
+            app:layout_constraintVertical_bias="0.871"
             app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="103dp"
+            android:layout_height="40dp"
+            android:text="領養區"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@+id/textView182"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -350,22 +378,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.154"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView171"
-        android:layout_width="103dp"
-        android:layout_height="40dp"
-        android:text="領養區"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:srcCompat="@drawable/dog1"
+        tools:srcCompat="@drawable/dog1" />
 
     <TextView
         android:id="@+id/textView172"

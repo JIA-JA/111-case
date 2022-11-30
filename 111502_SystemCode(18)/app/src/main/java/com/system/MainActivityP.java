@@ -1,10 +1,13 @@
 package com.system;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivityP extends AppCompatActivity {
 
@@ -12,6 +15,37 @@ public class MainActivityP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_p);
+        Spinner spinnerPetGender = findViewById(R.id.spinnerPetGenderP);
+        Spinner spinnerPetLigation = findViewById(R.id.spinnerPetLigationP);
+        spinnerPetGender.setSelection(1, false);
+        spinnerPetLigation.setSelection(1, false);
+
+        // 設定 sp 元件 ItemSelected 事件的 listener
+        spinnerPetGender.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView parent, View view, int position, long id) {
+                String result = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityP.this, result, Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView parent) {
+
+            }
+        });
+        spinnerPetLigation.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView parent, View view, int position, long id) {
+                String result = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityP.this, result, Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView parent) {
+
+            }
+        });
+
     }
     public void PAonClick(View v) {
         Intent intent = new Intent();
@@ -37,5 +71,8 @@ public class MainActivityP extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(MainActivityP.this, MainActivityO.class);
         startActivity(intent);
+    }
+    public void BackonClick(View v) {
+        finish();
     }
 }
