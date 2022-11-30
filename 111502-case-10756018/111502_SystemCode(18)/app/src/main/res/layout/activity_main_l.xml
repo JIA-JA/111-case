@@ -135,13 +135,13 @@
 
         <TextView
             android:id="@+id/textViewToPageJL"
-            android:layout_width="50dp"
-            android:layout_height="15dp"
+            android:layout_width="44dp"
+            android:layout_height="16dp"
             android:onClick="LJonClick"
             android:text="領養區"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.742"
+            app:layout_constraintHorizontal_bias="0.735"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.99" />
@@ -336,7 +336,7 @@
             android:layout_height="41dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.811"
+            app:layout_constraintHorizontal_bias="0.858"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.872"
@@ -348,10 +348,10 @@
             android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.908"
+            app:layout_constraintHorizontal_bias="0.937"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.872"
+            app:layout_constraintVertical_bias="0.871"
             app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
 
         <TextView

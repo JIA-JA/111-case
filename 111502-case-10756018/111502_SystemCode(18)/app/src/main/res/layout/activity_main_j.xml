@@ -199,8 +199,8 @@
 
     <TextView
         android:id="@+id/textViewToPageJJ"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

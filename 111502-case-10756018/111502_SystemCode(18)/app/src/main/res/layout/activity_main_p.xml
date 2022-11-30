@@ -90,8 +90,8 @@
 
     <TextView
         android:id="@+id/textViewToPageJP"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="48dp"
+        android:layout_height="17dp"
         android:onClick="PJonClick"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"

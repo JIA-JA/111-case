@@ -103,16 +103,16 @@
 
     <TextView
         android:id="@+id/textViewToPageJI1"
-        android:layout_width="50dp"
-        android:layout_height="15dp"
+        android:layout_width="44dp"
+        android:layout_height="18dp"
         android:onClick="IJonClick"
         android:text="領養區"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintHorizontal_bias="0.732"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintVertical_bias="0.992" />
 
     <TextView
         android:id="@+id/textViewToPageOI1"
