@@ -1,48 +1,52 @@
 package com.system;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivityP extends AppCompatActivity {
 
-    Boolean firstTime = true ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_p);
+        Spinner spinnerPetGender = findViewById(R.id.spinnerPetGenderP);
+        Spinner spinnerPetLigation = findViewById(R.id.spinnerPetLigationP);
+        spinnerPetGender.setSelection(1, false);
+        spinnerPetLigation.setSelection(1, false);
 
-        Spinner spinnerA = (Spinner) findViewById(R.id.spinnerPetGenderP);
-        Spinner spinnerB = (Spinner) findViewById(R.id.spinnerPetLigationP);
+        // 設定 sp 元件 ItemSelected 事件的 listener
+        spinnerPetGender.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView parent, View view, int position, long id) {
+                String result = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityP.this, result, Toast.LENGTH_LONG).show();
+            }
 
-        ArrayAdapter<CharSequence> adapterA =
-                ArrayAdapter.createFromResource(this,
-                        R.array.petGender,
-                        android.R.layout.simple_dropdown_item_1line);
+            @Override
+            public void onNothingSelected(AdapterView parent) {
 
-        adapterA.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerA.setAdapter(adapterA);
-        spinnerA.setSelection(0, false);
-        spinnerA.setOnItemSelectedListener(spnOnItemSelected);
+            }
+        });
+        spinnerPetLigation.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView parent, View view, int position, long id) {
+                String result = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityP.this, result, Toast.LENGTH_LONG).show();
+            }
 
-        ArrayAdapter<CharSequence> adapterB =
-                ArrayAdapter.createFromResource(this,
-                        R.array.petLigation,
-                        android.R.layout.simple_dropdown_item_1line);
+            @Override
+            public void onNothingSelected(AdapterView parent) {
 
-        adapterB.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerB.setAdapter(adapterB);
-        spinnerB.setSelection(0, false);
-        spinnerB.setOnItemSelectedListener(spnOnItemSelected);
+            }
+        });
 
     }
-
     public void PAonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityP.this, MainActivity.class);
@@ -68,21 +72,7 @@ public class MainActivityP extends AppCompatActivity {
         intent.setClass(MainActivityP.this, MainActivityO.class);
         startActivity(intent);
     }
-
-    public void backonClick(View v) {
-        MainActivityP.this.finish();
+    public void BackonClick(View v) {
+        finish();
     }
-
-    private AdapterView.OnItemSelectedListener spnOnItemSelected= new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, View view,int pos, long id) {
-            if (firstTime){firstTime = false;}
-            else{
-                Toast.makeText(view.getContext(),parent.getSelectedItem().toString(),Toast.LENGTH_SHORT).show();
-            }
-        }
-        public void onNothingSelected(AdapterView<?> parent) {
-            //
-        }
-    };
-
 }

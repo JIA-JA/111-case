@@ -1,10 +1,10 @@
 package com.system;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivityE extends AppCompatActivity {
 
@@ -12,6 +12,9 @@ public class MainActivityE extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_e);
+    }
+    public void BackonClick(View v) {
+        finish();
     }
     public void EAonClick(View v) {
         Intent intent = new Intent();
@@ -21,6 +24,11 @@ public class MainActivityE extends AppCompatActivity {
     public void EBonClick(View v) {
         Intent intent = new Intent();
         intent.setClass(MainActivityE.this, MainActivityB.class);
+        startActivity(intent);
+    }
+    public void EFonClick(View v) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivityE.this, MainActivityF.class);
         startActivity(intent);
     }
     public void EHonClick(View v) {
@@ -37,15 +45,5 @@ public class MainActivityE extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(MainActivityE.this, MainActivityO.class);
         startActivity(intent);
-    }
-
-    public void EFonClick(View v) {
-        Intent intent = new Intent();
-        intent.setClass(MainActivityE.this, MainActivityF.class);
-        startActivity(intent);
-    }
-
-    public void backonClick(View v) {
-        MainActivityE.this.finish();
     }
 }

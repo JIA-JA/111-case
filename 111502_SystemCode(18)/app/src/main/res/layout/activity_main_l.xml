@@ -6,29 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityL">
 
+    <ImageButton
+        android:id="@+id/imageButtonBackL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BackonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/ic_baseline_west_24" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:context=".MainActivityK">
-
-        <ImageButton
-            android:id="@+id/imageButtonBackL1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="backonClick"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.046"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.007"
-            app:srcCompat="@drawable/ic_baseline_west_24" />
 
         <TextView
             android:id="@+id/textView182"
@@ -44,15 +42,14 @@
 
         <TextView
             android:id="@+id/textView110"
-            android:layout_width="374dp"
-            android:layout_height="505dp"
+            android:layout_width="378dp"
+            android:layout_height="575dp"
             android:background="#D5D5D5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintHorizontal_bias="0.515"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.323" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/imageButtonToPageJL"
@@ -138,13 +135,13 @@
 
         <TextView
             android:id="@+id/textViewToPageJL"
-            android:layout_width="50dp"
-            android:layout_height="15dp"
+            android:layout_width="44dp"
+            android:layout_height="16dp"
             android:onClick="LJonClick"
             android:text="領養區"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.742"
+            app:layout_constraintHorizontal_bias="0.735"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.99" />
@@ -246,44 +243,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.141" />
 
-        <TextView
-            android:id="@+id/textViewYourMessageL1"
-            android:layout_width="191dp"
-            android:layout_height="36dp"
-            android:background="#CCCCCC"
-            android:text="你好，想請問狗狗的詳細資訊"
+        <ImageView
+            android:id="@+id/imageViewUserPhotoL1"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.398" />
-
-        <TextView
-            android:id="@+id/textViewYourMessageL2"
-            android:layout_width="191dp"
-            android:layout_height="36dp"
-            android:background="#CCCCCC"
-            android:text="感覺很不錯，請問能跟你通個電話嗎?"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.571" />
-
-        <TextView
-            android:id="@+id/textViewMessageL2"
-            android:layout_width="176dp"
-            android:layout_height="43dp"
-            android:background="#CCCCCC"
-            android:text="好的!這是我的電話話:0912-345-678"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.656" />
+            app:layout_constraintVertical_bias="0.402"
+            app:srcCompat="@drawable/geewuawua"
+            tools:srcCompat="@drawable/geewuawua" />
 
         <ImageView
             android:id="@+id/imageViewUserPhotoL2"
@@ -291,38 +262,59 @@
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintHorizontal_bias="0.105"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.659"
-            app:srcCompat="@drawable/xavior"
-            tools:srcCompat="@drawable/xavior" />
+            app:layout_constraintVertical_bias="0.589"
+            app:srcCompat="@drawable/geewuawua"
+            tools:srcCompat="@drawable/geewuawua" />
+
+        <TextView
+            android:id="@+id/textViewYourMessageL1"
+            android:layout_width="191dp"
+            android:layout_height="36dp"
+            android:text="你好，想請問狗狗的詳細資訊"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <TextView
+            android:id="@+id/textViewYourMessageL2"
+            android:layout_width="191dp"
+            android:layout_height="36dp"
+            android:text="感覺很不錯，請問能 跟你通個電話嗎?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.585" />
+
+        <TextView
+            android:id="@+id/textViewMessageL2"
+            android:layout_width="125dp"
+            android:layout_height="45dp"
+            android:text="好的!這是我的電話話:0912-345-678"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.677" />
 
         <TextView
             android:id="@+id/textViewMessageL1"
             android:layout_width="176dp"
             android:layout_height="43dp"
-            android:background="#CCCCCC"
             android:text="我們家的狗狗很非常乖，也很健康，能跑能跳喔。"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.931"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.488" />
-
-        <ImageView
-            android:id="@+id/imageViewUserPhotoL1"
-            android:layout_width="60dp"
-            android:layout_height="58dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.102"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.487"
-            app:srcCompat="@drawable/xavior"
-            tools:srcCompat="@drawable/xavior" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textViewOutputWordL"
@@ -333,10 +325,10 @@
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.225"
+            app:layout_constraintHorizontal_bias="0.231"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.754" />
+            app:layout_constraintVertical_bias="0.871" />
 
         <ImageButton
             android:id="@+id/imageButtonOutputPhotoL"
@@ -344,10 +336,10 @@
             android:layout_height="41dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.813"
+            app:layout_constraintHorizontal_bias="0.858"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.756"
+            app:layout_constraintVertical_bias="0.872"
             app:srcCompat="@drawable/ic_baseline_insert_photo_24" />
 
         <ImageButton
@@ -356,10 +348,10 @@
             android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.916"
+            app:layout_constraintHorizontal_bias="0.937"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.755"
+            app:layout_constraintVertical_bias="0.871"
             app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
 
         <TextView
@@ -368,12 +360,11 @@
             android:layout_height="40dp"
             android:text="領養區"
             app:autoSizeTextType="uniform"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/textView182"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.509"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.011" />
+            app:layout_constraintVertical_bias="0.023" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -387,8 +378,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.154"
-        app:srcCompat="@drawable/goldbrokendog"
-        tools:srcCompat="@drawable/goldbrokendog" />
+        app:srcCompat="@drawable/dog1"
+        tools:srcCompat="@drawable/dog1" />
 
     <TextView
         android:id="@+id/textView172"

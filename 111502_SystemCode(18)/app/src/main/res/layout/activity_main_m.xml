@@ -15,8 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.147"
-        app:srcCompat="@drawable/goyourmomselfdog"
-        tools:srcCompat="@drawable/goyourmomselfdog" />
+        app:srcCompat="@drawable/ic_baseline_pets_24" />
 
     <TextView
         android:id="@+id/textViewForgetPasswordM"
@@ -63,7 +62,7 @@
         android:id="@+id/imageButtonBackM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="backonClick"
+        android:onClick="BackonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
