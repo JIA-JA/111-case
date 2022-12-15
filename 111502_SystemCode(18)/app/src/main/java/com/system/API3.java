@@ -13,8 +13,21 @@ public class API3 {
         this.funeral_price = funeral_price;
         this.funeral_way = funeral_way;
     }
+    public String getAddress(){
+        return funeral_address;
+    }
+    public int getPrice(){
+        return funeral_price;
+    }
+    public String getWay(){
+        return funeral_way;
+    }
     public String getAllData(){
-        return "店家: "+funeral_name+"\n地址: "+funeral_address+"\n電話: "+funeral_phonenum+"\n價格: "+funeral_price+"\n處理方式: "+funeral_way+"\n";
+        return "店家: "+funeral_name+
+                "\n地址: "+funeral_address+
+                "\n電話: "+funeral_phonenum+
+                "\n價格: "+funeral_price+
+                "\n處理方式: "+funeral_way+"\n";
     }
     public String toString(){
         return "funeral_name: "+funeral_name+

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -21,6 +22,10 @@ public class MainActivityH extends AppCompatActivity {
 
     APIService APIService;
     RecycleViewAdapter adapter;
+    ArrayList<API3> search = new ArrayList<>();
+    String resultPrice = "價位不限";
+    String resultWay = "處理方法不限";
+    String resultArea = "地區不限";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +33,7 @@ public class MainActivityH extends AppCompatActivity {
         setContentView(R.layout.activity_main_h);
         RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
         recyclerViewFilterResults.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(40));
-
+        recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(20));
         Spinner spinnerPrice = findViewById(R.id.spinnerPriceH);
         Spinner spinnerWay = findViewById(R.id.spinnerWayH);
         Spinner spinnerArea = findViewById(R.id.spinnerAreaH);
@@ -41,8 +45,8 @@ public class MainActivityH extends AppCompatActivity {
         spinnerPrice.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView parent, View view, int position, long id) {
-                String result = parent.getItemAtPosition(position).toString();
-                Toast.makeText(MainActivityH.this, result, Toast.LENGTH_LONG).show();
+                resultPrice = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityH.this, resultPrice, Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView parent) {
@@ -52,8 +56,8 @@ public class MainActivityH extends AppCompatActivity {
         spinnerWay.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView parent, View view, int position, long id) {
-                String result = parent.getItemAtPosition(position).toString();
-                Toast.makeText(MainActivityH.this, result, Toast.LENGTH_LONG).show();
+                resultWay = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityH.this, resultWay, Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView parent) {
@@ -63,29 +67,105 @@ public class MainActivityH extends AppCompatActivity {
         spinnerArea.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView parent, View view, int position, long id) {
-                String result = parent.getItemAtPosition(position).toString();
-                Toast.makeText(MainActivityH.this, result, Toast.LENGTH_LONG).show();
+                resultArea = parent.getItemAtPosition(position).toString();
+                Toast.makeText(MainActivityH.this, resultArea, Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView parent) {
 
             }
         });
-
-
     }
     public void searchonClick(View v){
+        System.out.println(resultPrice);
+        System.out.println(resultWay);
+        System.out.println(resultArea);
         APIService =RetrofitManager.getInstance().getAPI();
         Call<ResponseFormat<List<API3>>> call= APIService.listExamples3();
         call.enqueue(new Callback<ResponseFormat<List<API3>>>() {
             @Override
             public void onResponse(Call<ResponseFormat<List<API3>>> call, Response<ResponseFormat<List<API3>>> response) {
                 System.out.println("connect ok");
-                System.out.println(response.body().getData());
                 if(!response.body().getData().isEmpty()){
                     System.out.println(response.body().getData().size());
                     RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
-                    adapter = new RecycleViewAdapter(getApplicationContext(), response.body().getData());
+                    for(int i=0;i<response.body().getData().size();i++){
+                        boolean status;
+                        if(resultPrice == "價位不限"){
+                            status = response.body().getData().get(i).getWay().contains(resultWay);
+                            if(resultWay == "處理方法不限"){
+                                status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                if(resultArea == "地區不限"){
+                                    search.add(response.body().getData().get(i));
+                                }else if(status){
+                                    search.add(response.body().getData().get(i));
+                                }
+                            }else if(status){
+                                status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                if(resultArea == "地區不限"){
+                                    search.add(response.body().getData().get(i));
+                                }else if(status){
+                                    search.add(response.body().getData().get(i));
+                                }
+                            }
+                        }else if(resultPrice == "5000(不含)以下"){
+                            if(response.body().getData().get(i).getPrice()<5000){
+                                status = response.body().getData().get(i).getWay().contains(resultWay);
+                                if(resultWay == "處理方法不限"){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }else if(status){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }
+                            }
+                        }else if(resultPrice == "10000(不含)以上"){
+                            if(response.body().getData().get(i).getPrice()>10000){
+                                status = response.body().getData().get(i).getWay().contains(resultWay);
+                                if(resultWay == "處理方法不限"){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }else if(status){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }
+                            }
+                        }else{
+                            status = response.body().getData().get(i).getWay().contains(resultWay);
+                            if(resultWay == "處理方法不限"){
+                                status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                if(resultArea == "地區不限"){
+                                    search.add(response.body().getData().get(i));
+                                }else if(status){
+                                    search.add(response.body().getData().get(i));
+                                }
+                            }else if(status){
+                                status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                if(resultArea == "地區不限"){
+                                    search.add(response.body().getData().get(i));
+                                }else if(status){
+                                    search.add(response.body().getData().get(i));
+                                }
+                            }
+                        }
+                    }
+                    adapter = new RecycleViewAdapter(getApplicationContext(),search);
                     recyclerViewFilterResults.setAdapter(adapter);
                 }
             }

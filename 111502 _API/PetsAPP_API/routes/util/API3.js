@@ -8,7 +8,7 @@ const query = require('./asyncDB');
 var select = async function (s_id) {
     var result;
 
-    await query(`select funeral_name,funeral_address,funeral_phonenum,funeral_price,funeral_way from funeral_merchant where funeral_price is not null and funeral_price<5000 and funeral_address like '%新竹縣%'`)
+    await query(`select funeral_name,funeral_address,funeral_phonenum,funeral_price,funeral_way from funeral_merchant`)
         .then((data) => {
             result = data
         }, (error) => {
