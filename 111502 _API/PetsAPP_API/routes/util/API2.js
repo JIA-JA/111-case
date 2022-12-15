@@ -8,9 +8,9 @@ const query = require('./asyncDB');
 var select = async function (s_id) {
     var result;
 
-    await query(`select must_know_describe from must_know_thehealth where must_know_name = '疫苗須知'`)
+    await query(`select * from must_know_thehealth`)
         .then((data) => {
-            result = data[0]
+            result = data
         }, (error) => {
             console.log(error)
             result = -1;

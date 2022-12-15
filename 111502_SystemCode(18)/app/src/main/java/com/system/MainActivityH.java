@@ -21,7 +21,7 @@ import retrofit2.Response;
 public class MainActivityH extends AppCompatActivity {
 
     APIService APIService;
-    RecycleViewAdapter adapter;
+    RecycleViewAdapter3 adapter;
     ArrayList<API3> search = new ArrayList<>();
     String resultPrice = "價位不限";
     String resultWay = "處理方法不限";
@@ -165,7 +165,7 @@ public class MainActivityH extends AppCompatActivity {
                             }
                         }
                     }
-                    adapter = new RecycleViewAdapter(getApplicationContext(),search);
+                    adapter = new RecycleViewAdapter3(getApplicationContext(),search);
                     recyclerViewFilterResults.setAdapter(adapter);
                 }
             }

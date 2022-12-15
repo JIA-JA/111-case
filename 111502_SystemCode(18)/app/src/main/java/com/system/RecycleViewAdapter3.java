@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.ViewHolder> {
+public class RecycleViewAdapter3 extends RecyclerView.Adapter<RecycleViewAdapter3.ViewHolder> {
     private LayoutInflater mInflater;
     private ArrayList<API3> search;
     // 剛剛context跟list就是透過這個傳進來 然後我們設mData=data
     // 所以mData=Horse，Cow，Camel，Sheep，Goat
     // 這裡的inflater是要可以載入黃色那塊 就是recyclerview_row.xml
-    RecycleViewAdapter(Context context, ArrayList<API3> data) {
+    RecycleViewAdapter3(Context context, ArrayList<API3> data) {
         this.mInflater = LayoutInflater.from(context);
         this.search = data;
     }
