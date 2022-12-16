@@ -115,67 +115,63 @@
 
     <TextView
         android:id="@+id/textViewToPageBC"
-        android:layout_width="49dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="CBonClick"
         android:text="保健區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageBC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageBC"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageBC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageBC"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageJC"
-        android:layout_width="43dp"
-        android:layout_height="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="CJonClick"
         android:text="領養區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageJC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageJC"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageJC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageJC"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageAC"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="CAonClick"
         android:text="動態消息"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageAC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageAC"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageAC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAC"
+        app:layout_constraintVertical_bias="0.849" />
 
     <TextView
         android:id="@+id/textViewToPageOC"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="COonClick"
         android:text="個人資料"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageOC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageOC"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageOC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageOC"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageHC"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="CHonClick"
         android:text="殯葬服務"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageHC"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageHC"
+        app:layout_constraintTop_toTopOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.857" />
 
     <TextView
         android:id="@+id/textView18"
@@ -194,12 +190,11 @@
         android:layout_height="39dp"
         android:text="貓愛滋"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintStart_toEndOf="@+id/buttonCatSymptom1C"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/buttonCatSymptom4C"
@@ -207,12 +202,12 @@
         android:layout_height="39dp"
         android:text="貓瘟"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/buttonCatSymptom3C"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCatSymptom2C"
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/buttonCatSymptom1C"
@@ -220,12 +215,12 @@
         android:layout_height="39dp"
         android:text="貓白血病"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/buttonCatSymptom6C"
@@ -233,12 +228,12 @@
         android:layout_height="39dp"
         android:text="貓傳染性腹膜炎"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/buttonCatSymptom5C"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCatSymptom4C"
+        app:layout_constraintVertical_bias="0.451" />
 
     <Button
         android:id="@+id/buttonCatSymptom3C"
@@ -246,12 +241,12 @@
         android:layout_height="39dp"
         android:text="貓卡里西病"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCatSymptom1C"
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/buttonCatSymptom5C"
@@ -259,12 +254,12 @@
         android:layout_height="39dp"
         android:text="貓鼻氣管炎"
         app:backgroundTint="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCatSymptom3C"
+        app:layout_constraintVertical_bias="0.451" />
 
     <TextView
         android:id="@+id/textView15"
@@ -283,16 +278,16 @@
 
     <EditText
         android:id="@+id/editTextSearchC"
-        android:layout_width="304dp"
-        android:layout_height="44dp"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.11" />
 
     <SearchView
         android:id="@+id/searchViewA"
@@ -321,15 +316,15 @@
 
     <Button
         android:id="@+id/buttonSearchC"
-        android:layout_width="63dp"
-        android:layout_height="39dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="搜尋"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.982"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/editTextSearchC"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -360,12 +355,12 @@
         android:layout_height="39dp"
         android:text="犬感染性肝炎"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/buttonDogSymptom6C"
@@ -373,12 +368,12 @@
         android:layout_height="39dp"
         android:text="犬冠狀病毒腸炎"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/buttonDogSymptom5C"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDogSymptom4C"
+        app:layout_constraintVertical_bias="0.451" />
 
     <Button
         android:id="@+id/buttonDogSymptom4C"
@@ -386,12 +381,11 @@
         android:layout_height="39dp"
         android:text="犬疥癬蟲症"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/buttonDogSymptom3C"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDogSymptom2C"
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/buttonDogSymptom2C"
@@ -399,12 +393,11 @@
         android:layout_height="39dp"
         android:text="狂犬病"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/buttonDogSymptom1C"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/buttonDogSymptom3C"
@@ -412,12 +405,12 @@
         android:layout_height="39dp"
         android:text="犬瘟熱"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDogSymptom1C"
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/buttonDogSymptom5C"
@@ -425,11 +418,11 @@
         android:layout_height="39dp"
         android:text="毛囊蟲症"
         app:backgroundTint="#03A9F4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDogSymptom3C"
+        app:layout_constraintVertical_bias="0.451" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

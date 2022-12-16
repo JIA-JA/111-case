@@ -90,67 +90,63 @@
 
     <TextView
         android:id="@+id/textViewToPageJP"
-        android:layout_width="48dp"
-        android:layout_height="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="PJonClick"
         android:text="領養區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageJP"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageJP"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageJP"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageJP"
+        app:layout_constraintVertical_bias="0.92" />
 
     <TextView
         android:id="@+id/textViewToPageOP"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="POonClick"
         android:text="個人資料"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageOP"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageOP"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageOP"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageOP"
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textViewToPageBP"
-        android:layout_width="49dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="PBonClick"
         android:text="保健區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageBP"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageBP"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageBP"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageBP"
+        app:layout_constraintVertical_bias="0.92" />
 
     <TextView
         android:id="@+id/textViewToPageAP"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="PAonClick"
         android:text="動態消息"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageAP"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageAP"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageAP"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAP"
+        app:layout_constraintVertical_bias="0.92" />
 
     <TextView
         android:id="@+id/textViewToPageHP"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="PHonClick"
         android:text="殯葬服務"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageHP"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageHP"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageHP"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageHP"
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/buttonSaveP"

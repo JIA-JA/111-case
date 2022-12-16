@@ -19,8 +19,8 @@
 
     <TextView
         android:id="@+id/textViewForgetPasswordM"
-        android:layout_width="74dp"
-        android:layout_height="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="忘記密碼"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,8 +85,8 @@
 
     <TextView
         android:id="@+id/textViewCreateAccountM"
-        android:layout_width="92dp"
-        android:layout_height="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="MNonClick"
         android:text="建立新帳號"
         android:textSize="18sp"

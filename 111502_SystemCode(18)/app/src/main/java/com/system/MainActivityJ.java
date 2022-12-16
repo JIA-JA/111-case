@@ -17,6 +17,7 @@ public class MainActivityJ extends AppCompatActivity {
         setContentView(R.layout.activity_main_j);
 
         Spinner spinnerVarietyJ = findViewById(R.id.spinnerVarietyJ);
+        spinnerVarietyJ.setSelection(0, false);
 
         // 設定 sp 元件 ItemSelected 事件的 listener
         spinnerVarietyJ.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

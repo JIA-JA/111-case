@@ -103,125 +103,122 @@
 
     <TextView
         android:id="@+id/textViewToPageBK"
-        android:layout_width="49dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="KBonClick"
         android:text="保健區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageBK"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageBK"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageBK"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAK"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageJK"
-        android:layout_width="47dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="KJonClick"
         android:text="領養區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageJK"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageJK"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageJK"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageJK"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageAK"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="KAonClick"
         android:text="動態消息"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageAK"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageAK"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageAK"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAK"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageOK"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="KOonClick"
         android:text="個人資料"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageOK"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageOK"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageOK"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageOK"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageHK"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="KHonClick"
         android:text="殯葬服務"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageHK"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageHK"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageHK"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageHK"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textView110"
         android:layout_width="378dp"
-        android:layout_height="575dp"
+        android:layout_height="500dp"
         android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView109"
+        app:layout_constraintVertical_bias="0.07" />
 
     <TextView
         android:id="@+id/textViewYourPetNameK1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="金玉"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toEndOf="@+id/textViewYourNameK1"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/textViewYourPetVarietyK1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="黃金獵犬"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/textViewYourVarietyK1"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/textViewYourPostText"
         android:layout_width="223dp"
         android:layout_height="99dp"
         android:text="有人想要領養超級親人的狗狗嗎～金玉是一歲多的黃金獵犬，已經會吃飼料很好照顧啦.做好了結紮跟體內外除蟲也洗香香的.帶他們回家吧。"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toEndOf="@+id/imageViewYourPetPhotoK1"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.102" />
 
     <TextView
         android:id="@+id/textViewMessageK1"
         android:layout_width="233dp"
         android:layout_height="41dp"
         android:text="你好，想請問狗狗的詳細資訊"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView143"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
         app:layout_constraintHorizontal_bias="0.668"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserPhotoK1"
+        app:layout_constraintTop_toBottomOf="@+id/textView141"
         app:layout_constraintVertical_bias="0.407" />
 
     <TextView
@@ -229,11 +226,11 @@
         android:layout_width="233dp"
         android:layout_height="41dp"
         android:text="請問牠會討厭貓嗎?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView151"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
         app:layout_constraintHorizontal_bias="0.668"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserPhotoK2"
+        app:layout_constraintTop_toBottomOf="@+id/textView143"
         app:layout_constraintVertical_bias="0.542" />
 
     <TextView
@@ -241,35 +238,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="名字:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toEndOf="@+id/textViewYourPetVarietyK1"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/textViewYourVarietyK1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="品種:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/imageViewYourPetPhotoK1"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.041" />
 
     <ImageView
         android:id="@+id/imageViewYourPetPhotoK1"
         android:layout_width="108dp"
         android:layout_height="102dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154"
+        app:layout_constraintBottom_toBottomOf="@+id/textView110"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/textView110"
+        app:layout_constraintTop_toTopOf="@+id/textView110"
+        app:layout_constraintVertical_bias="0.048"
         app:srcCompat="@drawable/dog1"
         tools:srcCompat="@drawable/dog1" />
 
@@ -328,12 +325,12 @@
         android:layout_width="60dp"
         android:layout_height="58dp"
         android:onClick="KLonClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.102"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392"
+        app:layout_constraintBottom_toTopOf="@+id/textView143"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/textView110"
+        app:layout_constraintTop_toBottomOf="@+id/textView141"
+        app:layout_constraintVertical_bias="0.388"
         app:srcCompat="@drawable/geewuawua"
         tools:srcCompat="@drawable/geewuawua" />
 
@@ -341,12 +338,12 @@
         android:id="@+id/imageViewUserPhotoK2"
         android:layout_width="60dp"
         android:layout_height="58dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.102"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542"
+        app:layout_constraintBottom_toTopOf="@+id/textView151"
+        app:layout_constraintEnd_toEndOf="@+id/textView110"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/textView110"
+        app:layout_constraintTop_toBottomOf="@+id/textView143"
+        app:layout_constraintVertical_bias="0.531"
         app:srcCompat="@drawable/cat"
         tools:srcCompat="@drawable/cat" />
 

@@ -33,7 +33,7 @@ public class MainActivityH extends AppCompatActivity {
         setContentView(R.layout.activity_main_h);
         RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
         recyclerViewFilterResults.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(20));
+        recyclerViewFilterResults.addItemDecoration(new SpacesItemDecoration(10));
         Spinner spinnerPrice = findViewById(R.id.spinnerPriceH);
         Spinner spinnerWay = findViewById(R.id.spinnerWayH);
         Spinner spinnerArea = findViewById(R.id.spinnerAreaH);
@@ -77,6 +77,7 @@ public class MainActivityH extends AppCompatActivity {
         });
     }
     public void searchonClick(View v){
+        search.clear();
         System.out.println(resultPrice);
         System.out.println(resultWay);
         System.out.println(resultArea);
@@ -89,8 +90,10 @@ public class MainActivityH extends AppCompatActivity {
                 if(!response.body().getData().isEmpty()){
                     System.out.println(response.body().getData().size());
                     RecyclerView recyclerViewFilterResults = findViewById(R.id.recyclerViewFilterResultsH);
+                    System.out.println(resultPrice);
                     for(int i=0;i<response.body().getData().size();i++){
                         boolean status;
+                        System.out.println(response.body().getData().get(i).getPrice());
                         if(resultPrice == "價位不限"){
                             status = response.body().getData().get(i).getWay().contains(resultWay);
                             if(resultWay == "處理方法不限"){
@@ -109,7 +112,26 @@ public class MainActivityH extends AppCompatActivity {
                                 }
                             }
                         }else if(resultPrice == "5000(不含)以下"){
-                            if(response.body().getData().get(i).getPrice()<5000){
+                            if(response.body().getData().get(i).getPrice() < 5000){
+                                status = response.body().getData().get(i).getWay().contains(resultWay);
+                                if(resultWay == "處理方法不限"){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }else if(status){
+                                    status = response.body().getData().get(i).getAddress().contains(resultArea);
+                                    if(resultArea == "地區不限"){
+                                        search.add(response.body().getData().get(i));
+                                    }else if(status){
+                                        search.add(response.body().getData().get(i));
+                                    }
+                                }
+                            }
+                        }else if(resultPrice == "5000~10000"){
+                            if(response.body().getData().get(i).getPrice()>5000 && response.body().getData().get(i).getPrice()<10000){
                                 status = response.body().getData().get(i).getWay().contains(resultWay);
                                 if(resultWay == "處理方法不限"){
                                     status = response.body().getData().get(i).getAddress().contains(resultArea);
@@ -144,23 +166,6 @@ public class MainActivityH extends AppCompatActivity {
                                     }else if(status){
                                         search.add(response.body().getData().get(i));
                                     }
-                                }
-                            }
-                        }else{
-                            status = response.body().getData().get(i).getWay().contains(resultWay);
-                            if(resultWay == "處理方法不限"){
-                                status = response.body().getData().get(i).getAddress().contains(resultArea);
-                                if(resultArea == "地區不限"){
-                                    search.add(response.body().getData().get(i));
-                                }else if(status){
-                                    search.add(response.body().getData().get(i));
-                                }
-                            }else if(status){
-                                status = response.body().getData().get(i).getAddress().contains(resultArea);
-                                if(resultArea == "地區不限"){
-                                    search.add(response.body().getData().get(i));
-                                }else if(status){
-                                    search.add(response.body().getData().get(i));
                                 }
                             }
                         }

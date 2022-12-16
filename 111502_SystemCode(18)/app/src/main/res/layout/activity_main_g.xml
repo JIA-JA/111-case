@@ -94,63 +94,59 @@
         android:layout_height="18dp"
         android:onClick="GBonClick"
         android:text="保健區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageBG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageBG"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageBG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageBG"
+        app:layout_constraintVertical_bias="0.843" />
 
     <TextView
         android:id="@+id/textViewToPageJG"
-        android:layout_width="43dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="GJonClick"
         android:text="領養區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageJG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageJG"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageJG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageJG"
+        app:layout_constraintVertical_bias="0.88" />
 
     <TextView
         android:id="@+id/textViewToPageAG"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="GAonClick"
         android:text="動態消息"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageAG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageAG"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageAG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAG"
+        app:layout_constraintVertical_bias="0.88" />
 
     <TextView
         android:id="@+id/textViewToPageOG"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="GOonClick"
         android:text="個人資料"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageOG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageOG"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageOG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageOG"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageHG"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="GHonClick"
         android:text="殯葬服務"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageHG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageHG"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageHG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageHG"
+        app:layout_constraintVertical_bias="0.88" />
 
     <TextView
         android:id="@+id/textView63"
@@ -172,12 +168,12 @@
         android:text="疫苗須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
+        app:layout_constraintEnd_toEndOf="@+id/textView63"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView63"
+        app:layout_constraintTop_toTopOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonWaferNoticeG"
@@ -187,12 +183,12 @@
         android:text="晶片須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
+        app:layout_constraintEnd_toEndOf="@+id/textView63"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView63"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/buttonSummerNoticeG"
@@ -202,12 +198,12 @@
         android:text="夏日須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.643"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
+        app:layout_constraintEnd_toEndOf="@+id/textView63"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toEndOf="@+id/buttonInsectPreventionNoticeG"
+        app:layout_constraintTop_toTopOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonHealthNoticeG"
@@ -217,12 +213,12 @@
         android:text="健康檢查"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.643"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toEndOf="@+id/buttonWeightControlG"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSummerNoticeG"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/buttonAutumnWinterNoticeG"
@@ -232,12 +228,12 @@
         android:text="秋冬須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toEndOf="@+id/buttonSummerNoticeG"
+        app:layout_constraintTop_toTopOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonPetDentistryG"
@@ -247,12 +243,12 @@
         android:text="寵物牙科"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toEndOf="@+id/buttonHealthNoticeG"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAutumnWinterNoticeG"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/buttonInsectPreventionNoticeG"
@@ -262,12 +258,12 @@
         android:text="防蟲須知"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/buttonVaccineNoticeG"
+        app:layout_constraintTop_toTopOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonWeightControlG"
@@ -277,23 +273,12 @@
         android:text="體重控制"
         android:textSize="10sp"
         app:backgroundTint="#727273"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
-
-    <TextView
-        android:id="@+id/textView64"
-        android:layout_width="353dp"
-        android:layout_height="460dp"
-        android:background="#D5D5D5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/buttonWaferNoticeG"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInsectPreventionNoticeG"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView62"
@@ -324,16 +309,17 @@
 
     <TextView
         android:id="@+id/textViewTitleG"
-        android:layout_width="80dp"
-        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="疫苗須知"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView64"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintTop_toBottomOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.087" />
 
     <ScrollView
         android:layout_width="330dp"
@@ -341,10 +327,10 @@
         android:background="#D5D5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646"
+        app:layout_constraintTop_toBottomOf="@+id/textView63"
+        app:layout_constraintVertical_bias="0.395"
         tools:context=".MainActivityG">
 
         <TextView

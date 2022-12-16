@@ -104,66 +104,62 @@
 
     <TextView
         android:id="@+id/textViewToPageAB"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BAonClick"
         android:text="動態消息"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageAB"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageAB"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageAB"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageAB"
+        app:layout_constraintVertical_bias="0.88" />
 
     <TextView
         android:id="@+id/textViewToPageHB"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BHonClick"
         android:text="殯葬服務"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView47"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageHB"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageHB"
+        app:layout_constraintTop_toTopOf="@+id/textView47"
+        app:layout_constraintVertical_bias="0.877" />
 
     <TextView
         android:id="@+id/textViewToPageBB"
-        android:layout_width="49dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="保健區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageBB"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageBB"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageBB"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageBB"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageJB"
-        android:layout_width="43dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BJonClick"
         android:text="領養區"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonJB"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonJB"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonJB"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonJB"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textViewToPageOB"
-        android:layout_width="63dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BOonClick"
         android:text="個人資料"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonOB"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonOB"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonOB"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonOB"
+        app:layout_constraintVertical_bias="0.86" />
 
     <ImageButton
         android:id="@+id/imageButtonToPageG"
@@ -231,57 +227,57 @@
 
     <TextView
         android:id="@+id/textViewToPageC"
-        android:layout_width="146dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BConClick"
         android:text="症狀查詢"
         android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageC"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageC"
+        app:layout_constraintVertical_bias="0.554" />
 
     <TextView
         android:id="@+id/textViewToPageE"
-        android:layout_width="146dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BEonClick"
         android:text="日常護理"
         android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageE"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageE"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageE"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageE"
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
         android:id="@+id/textViewToPageG"
-        android:layout_width="146dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="BGonClick"
         android:text="保健須知"
         android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageG"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageG"
+        app:layout_constraintVertical_bias="0.506" />
 
     <ImageView
         android:id="@+id/imageViewToPageC"
         android:layout_width="53dp"
         android:layout_height="48dp"
         android:onClick="BConClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.268"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageC"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageC"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageC"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageC"
+        app:layout_constraintVertical_bias="0.56"
         app:srcCompat="@drawable/ic_baseline_search_24" />
 
     <ImageView
@@ -289,12 +285,12 @@
         android:layout_width="53dp"
         android:layout_height="48dp"
         android:onClick="BEonClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.282"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageE"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageE"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageE"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageE"
+        app:layout_constraintVertical_bias="0.536"
         app:srcCompat="@drawable/ic_baseline_search_24" />
 
     <ImageView
@@ -302,12 +298,12 @@
         android:layout_width="53dp"
         android:layout_height="48dp"
         android:onClick="BGonClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.279"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonToPageG"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonToPageG"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonToPageG"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonToPageG"
+        app:layout_constraintVertical_bias="0.512"
         app:srcCompat="@drawable/ic_baseline_search_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@ public class RetrofitManager {
 
         // 設置baseUrl即要連的網站，addConverterFactory用Gson作為資料處理Converter
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://a594-125-227-38-129.jp.ngrok.io ")
+                .baseUrl("https://a594-125-227-38-129.jp.ngrok.io")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
